@@ -1,0 +1,165 @@
+---
+layout: post
+status: publish
+published: true
+title: 2.6 out of beta
+author:
+  display_name: Michael G. Ströck
+  login: Michael Stroeck
+  email: michael@stroeck.com
+  url: http://www.twitter.com/mstroeck
+author_login: Michael Stroeck
+author_email: michael@stroeck.com
+author_url: http://www.twitter.com/mstroeck
+wordpress_id: 366
+wordpress_url: http://www.vienna-rss.org/?p=366
+date: '2011-12-18 19:06:24 +1100'
+date_gmt: '2011-12-18 19:06:24 +1100'
+categories:
+- Uncategorized
+tags: []
+comments:
+- id: 5415
+  author: Ronald
+  author_email: ronald@vanvlietzwolle.nl
+  author_url: ''
+  date: '2011-12-18 19:18:31 +1100'
+  date_gmt: '2011-12-18 19:18:31 +1100'
+  content: After downloaded, it says that it's improperly signed and the installation
+    stops!!
+- id: 5416
+  author: fail
+  author_email: uvojonodeh@spamavert.com
+  author_url: ''
+  date: '2011-12-18 20:33:11 +1100'
+  date_gmt: '2011-12-18 20:33:11 +1100'
+  content: Can't use the built in updater in version 2.5.1.2502, it says "the update
+    is improperly signed."
+- id: 5417
+  author: Vienna Administrators
+  author_email: vienna-rss-admins@sourceforge.net
+  author_url: http://www.vienna-rss.org
+  date: '2011-12-19 04:14:31 +1100'
+  date_gmt: '2011-12-19 04:14:31 +1100'
+  content: That is rather weird - it worked on all our test machines. Please download
+    it via the <a href="http:&#47;&#47;sourceforge.net&#47;projects&#47;vienna-rss&#47;files&#47;ReleasedVersions&#47;2.6.0&#47;Vienna2.6.0.2601.zip&#47;download"
+    rel="nofollow">download link<&#47;a> and just manually replace the old version
+    with the new one. Your database is stored elsewhere, so all your data wil survive
+    :-)
+- id: 5419
+  author: dirt farmer
+  author_email: mlbrunke@gmail.com
+  author_url: ''
+  date: '2011-12-19 04:54:53 +1100'
+  date_gmt: '2011-12-19 04:54:53 +1100'
+  content: "I can attest to the d&#47;l problem. Console shows it as a Sparkle error.\r\n\r\nAlso,
+    I cannot view links in the internal Vienna browser (please see my post in the
+    forum)."
+- id: 5421
+  author: Peter
+  author_email: peter@nowhere.org
+  author_url: ''
+  date: '2011-12-19 15:58:17 +1100'
+  date_gmt: '2011-12-19 15:58:17 +1100'
+  content: "Just downloaded 2.6.0.2601 (currently using 2.5.1.2502) and after unzipping
+    on my desktop this is what I see : http:&#47;&#47;i.imgur.com&#47;ok1Ls.png\r\n\r\nI'm
+    running 10.5.8 on an Intel iMac"
+- id: 5422
+  author: REB
+  author_email: tle.bull@gmail.com
+  author_url: ''
+  date: '2011-12-19 16:40:01 +1100'
+  date_gmt: '2011-12-19 16:40:01 +1100'
+  content: I too have been using 2.6 (beta) flawlessly since its release. The new
+    2.6 (stable) does not support OS X 10.5.8 PPC architecture. Thought it might,
+    since the beta works so well. Any possibility of getting PPC capabilities back?
+- id: 5423
+  author: TGB
+  author_email: tgb@mailinator.com
+  author_url: ''
+  date: '2011-12-19 21:41:08 +1100'
+  date_gmt: '2011-12-19 21:41:08 +1100'
+  content: "Running okay on mine, by manually downloading and copying over the top
+    of the old.\r\n\r\nBut, geesh... folder and message lists as 14 point font by
+    default? I've fixed it on mine, but guys, WTH? Take a look at Apple Mail, Safari,
+    Outlook, Cyberduck, Address Book, Twitter... their UI doesn't default to that
+    of the visually impaired."
+- id: 5424
+  author: Michael H.
+  author_email: micho17@gmx.de
+  author_url: ''
+  date: '2011-12-20 11:44:58 +1100'
+  date_gmt: '2011-12-20 11:44:58 +1100'
+  content: "I've been using Vienna since some months now. Return made Vienna show
+    the article so far, since 2.6 it opens the article in the default browser. I don't
+    like this behavior. Now I have to double-click, Return was much easier and more
+    \"natural\". Can I change it? Can you change it?\r\nBesides that: Good work, thanks
+    to all of you."
+- id: 5425
+  author: erix
+  author_email: postmaster@ericpriou.net
+  author_url: ''
+  date: '2011-12-21 10:50:21 +1100'
+  date_gmt: '2011-12-21 10:50:21 +1100'
+  content: "Unfortunately, the behavior of opening a link in the internal browser
+    changed and there is no way to set it in the preferences panes : now press  ->
+    open up the browser, not the internal one&hellip;\r\nAny way to redo the old behavior
+    ?"
+- id: 5426
+  author: broken autoupdater
+  author_email: alpha_leader_of_the_fdg@yahoo.com
+  author_url: ''
+  date: '2011-12-21 15:27:10 +1100'
+  date_gmt: '2011-12-21 15:27:10 +1100'
+  content: "Autoupdater doesn't check OS support before updating - I'm on OS 10.5.8
+    and now I have a non-functional Vienna.  Rollback to 2.5.1 was successful in fixing
+    the problem from: \r\nhttp:&#47;&#47;sourceforge.net&#47;projects&#47;vienna-rss&#47;files&#47;ReleasedVersions&#47;2.5.1&#47;Vienna2.5.1.2502.zip&#47;download"
+- id: 5428
+  author: confused
+  author_email: con@fuse.de
+  author_url: ''
+  date: '2011-12-22 11:05:52 +1100'
+  date_gmt: '2011-12-22 11:05:52 +1100'
+  content: "How can I restore the behavior that articles are opened in new background
+    tabs in Vienna instead of new windows of my system's default browser?\r\n\r\nI
+    can't find an according setting and it is driving me nuts!"
+- id: 5435
+  author: Bernie
+  author_email: stursulabigbands@googlemail.com
+  author_url: ''
+  date: '2011-12-28 14:34:04 +1100'
+  date_gmt: '2011-12-28 14:34:04 +1100'
+  content: Doesn&rsquo;t Vienna 2.6 work on leopard (10.5.8)? After unpacking the
+    archive I get the message "&hellip; can&rsquo;t be used with this version of mac
+    os x". Sorry, but can&rsquo;t find any system requirements on your webpage.
+- id: 5436
+  author: Andrew
+  author_email: osscar5000@gmx.de
+  author_url: ''
+  date: '2011-12-29 13:51:43 +1100'
+  date_gmt: '2011-12-29 13:51:43 +1100'
+  content: Vienna RSS ist a good Reader, but on my System (10.7.2) the styles don't
+    work. These Option is without function, no matter which style is activated!
+- id: 5445
+  author: Philo
+  author_email: phildooher@gmail.com
+  author_url: ''
+  date: '2012-01-04 14:44:04 +1100'
+  date_gmt: '2012-01-04 14:44:04 +1100'
+  content: "Thanks a bunch for this! It's working great in 10.7.\r\n\r\nI love Vienna's
+    simple interface and the ability to navigate feeds effortlessly using the keyboard.
+    With a bit of css&#47;html hacking I made myself the perfect style too.\r\n\r\nKeep
+    up the good work!"
+- id: 7632
+  author: Esther
+  author_email: esthernieb@hotmail.com
+  author_url: ''
+  date: '2012-02-02 20:55:10 +1100'
+  date_gmt: '2012-02-02 20:55:10 +1100'
+  content: 'Hi! I downloaded threw this donwload link you send. Ben after downloading
+    it says: You cannot use this version of the application Vienna-1 with this version
+    of Mac OS X. Is there an other way?'
+---
+<p>2.6 has been stable for a very, very long time - so I'll just make it official :-) One small but handy thing that I added is a plugin for effortless sharing with <a href="http:&#47;&#47;www.bufferapp.com">Buffer<&#47;a>. It's a very useful service that has popped up between the beta release and now - check it out and have fun!</p>
+<p><center><a href="http:&#47;&#47;sourceforge.net&#47;projects&#47;vienna-rss&#47;files&#47;ReleasedVersions&#47;2.6.0&#47;Vienna2.6.0.2601.zip&#47;download"><img alt="Vienna 2.6 supports user-creatable plugins" src="http:&#47;&#47;www.vienna-rss.org&#47;img&#47;plugins.png" title="Vienna 2.6 supports user-creatable plugins" width="327" height="77" &#47;><&#47;a><br&#47;><br />
+<h3>Click to download: <a href="http:&#47;&#47;sourceforge.net&#47;projects&#47;vienna-rss&#47;files&#47;ReleasedVersions&#47;2.6.0&#47;Vienna2.6.0.2601.zip&#47;download"><strong>Vienna 2.6<&#47;strong><&#47;a><&#47;h3><&#47;center></p>
