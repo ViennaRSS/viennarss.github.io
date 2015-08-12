@@ -1,0 +1,82 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Vienna 2.4 BETA '
+author:
+  display_name: Jeff Johnson
+  login: Jeff Johnson
+  email: vienna@lapcatsoftware.com
+  url: http://www.lapcatsoftware.com
+author_login: Jeff Johnson
+author_email: vienna@lapcatsoftware.com
+author_url: http://www.lapcatsoftware.com
+wordpress_id: 13
+wordpress_url: http://vienna-rss.sourceforge.net/?p=13
+date: '2010-01-08 21:15:40 +1100'
+date_gmt: '2010-01-08 21:15:40 +1100'
+categories:
+- Blog
+tags: []
+comments:
+- id: 5
+  author: Carlos
+  author_email: carlos@abc.com
+  author_url: ''
+  date: '2010-01-13 15:50:49 +1100'
+  date_gmt: '2010-01-13 15:50:49 +1100'
+  content: There's a bug when user tries to change the font size  by the second time
+    in preferences panel. The first set goes ok, but the second crashes the app. I
+    was trying to make lists' font size bigger.
+- id: 7
+  author: Michael Stroeck
+  author_email: michael@stroeck.com
+  author_url: ''
+  date: '2010-01-14 10:31:34 +1100'
+  date_gmt: '2010-01-14 10:31:34 +1100'
+  content: Thanks for reporting the issue! I have been able to reproduce it and we
+    will be looking into it!
+---
+<p>The Vienna team is happy to announce a public beta version of the upcoming Vienna 2.4 release. You can download the beta version from SourceForge at <a title="Vienna 2.4 Beta" href="https:&#47;&#47;sourceforge.net&#47;projects&#47;vienna-rss&#47;files&#47;Test%20Versions&#47;2.4.0.2400&#47;Vienna2.4.0.2400.zip&#47;download" target="_self">Vienna build 2400<&#47;a>. An English-only version can be downloaded as well. Once you start using the beta, future beta versions of 2.4.0 as well as the final release will appear in Vienna's built-in Check for Updates.</p>
+<h2>Requirements<&#47;h2></p>
+<p>Vienna 2.4 requires Mac OS X 10.5 Leopard or higher to run. Sorry, we can no longer support Mac OS X 10.4 Tiger.</p>
+<h2>Pre-release software<&#47;h2></p>
+<p>The Vienna 2.4 beta version is pre-release software, and it may contain bugs. If you discover a bug, please create a new topic here in the Vienna forum and report the bug to us. Some tips for writing good bug reports can be found at http:&#47;&#47;forums.cocoaforge.com&#47;viewtopic.php?f=18&amp;t=9210. For safety, we recommend that you back up your files before running the beta version. Vienna's files are located at "~&#47;Library&#47;Preferences&#47;uk.co.opencommunity.vienna2.plist" and "~&#47;Library&#47;Application Support&#47;Vienna".</p>
+<h2>Database upgrade<&#47;h2></p>
+<p>On the first launch, Vienna 2.4 will upgrade your database. Depending on the size of your database, the upgrade may take some time, so please be patient on first launch. Because of the database upgrade, we don't recommend that you switch back and forth between Vienna 2.4 and Vienna 2.3.</p>
+<h2>Enhancements<&#47;h2></p>
+<ul>
+<li> The XML source for feeds is now saved, and there is a new menu item "Show XML Source" to display it.<&#47;li>
+<li>Add support for Internationalized Domain Names (IDN) in the built-in web browser.<&#47;li>
+<li>Many user interface improvements.<&#47;li>
+<li>Enable searching for text in the web browser. (Note that this required using the command-shift-g keyboard shortcut for<&#47;li>
+<li>Find Previous, replacing the old shortcut for New Group Folder.)<&#47;li>
+<li>Enable printing of web pages.<&#47;li>
+<li>Double the number of simultaneous feed downloads during refreshing from 10 to 20.<&#47;li>
+<li>Minor speed improvements for some operations.<&#47;li>
+<li>An informative error page is displayed in the web browser when a page cannot be loaded.<&#47;li>
+<li>Add support for the blog editor Blogo.<&#47;li><br />
+<&#47;ul></p>
+<h2>Fixes<&#47;h2></p>
+<ul>
+<li>Fix a long standing bug where deleted articles would reappear after emptying the trash.<&#47;li>
+<li>Eliminate drawing artifacts in the Folders and Articles headers. (Patch from Dan Crosta)<&#47;li>
+<li>Fix a crash reported in Vienna forum topic 21303<&#47;li>
+<li>Fix a crash when sorting articles by enclosure URL.<&#47;li>
+<li>Fix a bug where clicking on a feed link launched Vienna but failed to subscribe to the feed.<&#47;li>
+<li>Fix the article view scrolling problem reported in Vienna forum topic 20814<&#47;li>
+<li>Fix the mark all read bug on Snow Leopard reported in Vienna forum topic 20877<&#47;li>
+<li>Prevent an infinite redirect loop. This was happening with the factcheck feedburner feed.<&#47;li>
+<li>Vienna's interface now correctly dims when the application is the background.<&#47;li>
+<li>Fix a bug where changing the layout would hide the tab bar until relaunch.<&#47;li>
+<li>Fix drawing errors and artifacts in the grey title bars.<&#47;li>
+<li>Check for https URLs as well as http on the pasteboard when adding a new subscription.<&#47;li>
+<li>Fix background drawing errors in main window and remove custom window background.<&#47;li>
+<li>Fix drawing errors in Downloads window and remove the custom background.<&#47;li>
+<li>Add a workaround for feeds that contain more than one item with the same guid. (For example, the WordPress Trac.)<&#47;li>
+<li>Fix "Help -> Keyboard shortcuts", which didn't work in some cases.<&#47;li>
+<li>Numerous fixes to localization of help pages and other strings in German, French, and other languages.<&#47;li>
+<li>Eliminate deprecated method warnings on Snow Leopard.<&#47;li>
+<li>Turn off animation of tab resizing. It was slow, superfluous and sometimes caused drawing errors in the tab bar background.<&#47;li>
+<li>Update SQLite to version 3.6.18<&#47;li><br />
+<&#47;ul></p>
