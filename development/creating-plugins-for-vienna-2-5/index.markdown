@@ -71,33 +71,32 @@ Each type requires: </p>
 The actual configuration of the plugin happens in its "info.plist". The following example completely describes Vienna's built-in Facebook plugin:
 
 <pre><code>
-[xml]
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
-&lt;plist version=&quot;1.0&quot;&gt;
-&lt;dict&gt;
-	&lt;key&gt;Name&lt;/key&gt;
-	&lt;string&gt;ShareWithFacebook&lt;/string&gt;
-	&lt;key&gt;Type&lt;/key&gt;
-	&lt;string&gt;Link&lt;/string&gt;
-	&lt;key&gt;URL&lt;/key&gt;
-	&lt;string&gt;http://www.facebook.com/sharer.php?u=$ArticleLink$&amp;amp;t=$ArticleTitle$&lt;/string&gt;
-	&lt;key&gt;Default&lt;/key&gt;
-	&lt;false/&gt;
-	&lt;key&gt;FriendlyName&lt;/key&gt;
-	&lt;string&gt;Facebook&lt;/string&gt;
-	&lt;key&gt;Tooltip&lt;/key&gt;
-	&lt;string&gt;Share the current article on Facebook&lt;/string&gt;
-	&lt;key&gt;ButtonImage&lt;/key&gt;
-	&lt;string&gt;facebookButton&lt;/string&gt;
-	&lt;key&gt;MenuPath&lt;/key&gt;
-	&lt;string&gt;Share With Facebook&lt;/string&gt;
-	&lt;key&gt;ShortenURLs&lt;/key&gt;
-	&lt;false/&gt;
-&lt;/dict&gt;
-&lt;/plist&gt;
-[/xml]
-</code></pre>
+{% highlight xml %}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>ShareWithFacebook</string>
+	<key>Type</key>
+	<string>Link</string>
+	<key>URL</key>
+	<string>http://www.facebook.com/sharer.php?u=$ArticleLink$&amp;t=$ArticleTitle$</string>
+	<key>Default</key>
+	<false/>
+	<key>FriendlyName</key>
+	<string>Facebook</string>
+	<key>Tooltip</key>
+	<string>Share the current article on Facebook</string>
+	<key>ButtonImage</key>
+	<string>facebookButton</string>
+	<key>MenuPath</key>
+	<string>Share With Facebook</string>
+	<key>ShortenURLs</key>
+	<false/>
+</dict>
+</plist>
+{% endhighlight %}
 
 
 <p>For more information on understanding and editing .plists, please go read <a href="http://developer.apple.com/mac/library/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.htm">this document</a> at the Apple Developer Connection website.</p>

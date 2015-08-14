@@ -28,19 +28,21 @@ You can easily create your own custom styles with a little knowledge of HTML and
 <li><strong>stylesheet.css</strong></li><br />
 </ul></p>
 <p>You can have additional files such as images, but these two files must be present at a minimum for your style to work. The designe should be handled in <em>stylesheet.css</em>, while<em> template.html</em> contains the full HTML template for the article minus the head or body wrappers. A typical template appears below:</p>
-<pre><code>
-&lt;div&gt;
-	&lt;div&gt;
-		&lt;b&gt;&lt;a href=&quot;$ArticleLink$&quot;&gt;$ArticleTitle$&lt;/a&gt;&lt;/b&gt;
-	&lt;/div&gt;&lt;/p&gt;
-	&lt;div&gt;
+
+{% highlight html %}
+<div>
+	<div>
+		<b><a href="$ArticleLink$">$ArticleTitle$</a></b>
+	</div></p>
+	<div>
 		$ArticleBody$
-	&lt;/div&gt;
-	&lt;div&gt;
-		&lt;span&gt;&lt;a href=&quot;$FeedLink$&quot;&gt;$FeedTitle$&lt;/a&gt;&lt;/span&gt; &lt;span&gt;$ArticleDate$&lt;/span&gt; &lt;span&gt;$ArticleAuthor$&lt;/span&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
+	</div>
+	<div>
+		<span><a href="$FeedLink$">$FeedTitle$</a></span> <span>$ArticleDate$</span> <span>$ArticleAuthor$</span>
+	</div>
+</div>
+{% endhighlight %}
+
 <p>The parts in $...$ are special placeholders, called <strong>tags</strong>, that Vienna will fill in when it displays the article. After you have created your style, restart Vienna and your new style should appear on the Styles submenu. Switch to it see your finished work.</p>
 <h3>Available Tags</h3><br />
 The following is a complete list of the tags currently available to you. They are named to be self-explanatory. If you have an idea for a style that would need the application to expose additional information, please bring it up on the <a href="http://forums.cocoaforge.com/viewforum.php?f=20">Developer Forum</a> or create a new issue on <a href="https://github.com/ViennaRSS/vienna-rss/issues">GitHub</a>.</p>
