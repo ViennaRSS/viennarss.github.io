@@ -4,21 +4,8 @@ status: publish
 published: true
 title: FAQs
 author:
-  display_name: Vienna Administrators
-  login: admin
-  email: vienna-rss-admins@sourceforge.net
-  url: http://www.vienna-rss.org
-author_login: admin
-author_email: vienna-rss-admins@sourceforge.net
-author_url: http://www.vienna-rss.org
-wordpress_id: 96
-wordpress_url: http://www.vienna-rss.org/?page_id=96
 date: '2010-01-09 22:33:38 +1100'
-date_gmt: '2010-01-09 22:33:38 +1100'
 categories:
-- Uncategorized
-tags: []
-comments: []
 ---
 
 * <a href="#What_does_Vienna_stand_for">What does the name Vienna mean?</a>
