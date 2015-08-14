@@ -20,5 +20,6 @@ categories:
 tags: []
 comments: []
 ---
-<p>If the in-application help files and the <a href="http:&#47;&#47;www.vienna-rss.org&#47;?page_id=96">FAQs<&#47;a> don't answer your questions, head over to our <a href="http:&#47;&#47;forums.cocoaforge.com&#47;viewforum.php?f=18">Support Forum<&#47;a> which is hosted by <a href="http:&#47;&#47;www.cocoaforge.com">Cocoaforge<&#47;a>. Posting your question, comment, bug report or feature request there will ensure that the developers see it. Using the forum also ensures that the answer will help other users as well.</p>
-<p><a class="btn" href="http:&#47;&#47;forums.cocoaforge.com&#47;viewforum.php?f=18">Go to Forum<&#47;a></p>
+
+If the in-application help files and the <a href="http://www.vienna-rss.org/?page_id=96">FAQs</a> don't answer your questions, head over to our [Support Forum](http://forums.cocoaforge.com/viewforum.php?f=18) which is hosted by [Cocoaforge](http://www.cocoaforge.com). Posting your question, comment, bug report or feature request there will ensure that the developers see it. Using the forum also ensures that the answer will help other users as well.
+

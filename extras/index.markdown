@@ -20,111 +20,112 @@ categories:
 tags: []
 comments: []
 ---
-<h2>
-	User-Contributed Display Styles<br />
-<&#47;h2></p>
-<p>
-	To install custom styles, click on the style name to download it then double-click the downloaded file to unpack the ZIP file. (Browsers like Safari will automatically unpack the file for you). Then finally double-click the extracted .viennastyle file to automatically install the style into Vienna.<br />
-<&#47;p></p>
-<p>
-	See the <a href="http:&#47;&#47;www.vienna-rss.org&#47;?page_id=65">Creating Custom Styles<&#47;a> page for instructions on how to create your own styles.<br />
-<&#47;p></p>
+
+## User-Contributed Display Styles ##
+
+To install custom styles, click on the style name to download it then double-click the downloaded file to unpack the ZIP file. (Browsers like Safari will automatically unpack the file for you). Then finally double-click the extracted .viennastyle file to automatically install the style into Vienna.
+
+See the [Creating Custom Styles](http://www.vienna-rss.org/?page_id=65) page for instructions on how to create your own styles.
+
 <ul>
-<li><a href="userstyles&#47;FeedLightAqua.viennastyle.zip"><b>FeedLight Aqua<&#47;b><&#47;a> The current default theme in Vienna, contributed by <a href="http:&#47;&#47;graphr.net&#47;">Alex Hong<&#47;a><&#47;li>
-<li>
-		<a href="userstyles&#47;GreyMonday.viennastyle.zip"><b>Grey Monday<&#47;b><&#47;a> Contributed by Mario Peischl<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;yFlicks.viennastyle.zip"><b>yFlicks<&#47;b><&#47;a> Contributed by Jonathan Pacheco<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;typebright-10-viennastyles.zip"><b>TypeBright<&#47;b><&#47;a> Contributed by Folletto Malefico<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;Prague-Aqua.viennastyle.zip"><b>Prague-Aqua (Updated 4th Jan 2007)<&#47;b><&#47;a> Contributed by Didier Oswald<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;Pushpin.viennastyle.zip"><b>Pushpin<&#47;b><&#47;a> Contributed by Didier Oswald<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;aquapastelsigalakou.viennastyle.zip"><b>Aqua Pastel Sigalakou<&#47;b><&#47;a> Contributed by Anthony Sigalas<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;flickrblacksigalakou.viennastyle.zip"><b>Flickr Black Sigalakou<&#47;b><&#47;a> Contributed by Anthony Sigalas<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;minimalsigalakou.viennastyle.zip"><b>Minimal Sigalakou<&#47;b><&#47;a> Contributed by Anthony Sigalas<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;Screenplay.viennastyle.zip"><b>Screenplay<&#47;b><&#47;a> Contributed by Jonathan Pacheco<br />
-	<&#47;li></p>
-<li>
-		<a href="http:&#47;&#47;sarah-and-john.com&#47;john&#47;vienna&#47;dartanion.viennastyle.zip"><b>Dartanion<&#47;b><&#47;a> Contributed by johnnySw<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;ViennaTimes.viennastyle.zip"><b>Vienna Times<&#47;b><&#47;a> Contributed by Jonathan Pacheco<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;Cocoa.viennastyle.zip"><b>Cocoa<&#47;b><&#47;a> Contributed by Jonathan Pacheco<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;Spotlight.viennastyle.zip"><b>Spotlight<&#47;b><&#47;a> Contributed by Jonathan Pacheco<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;Sage.viennastyle.zip"><b>Sage<&#47;b><&#47;a> Contributed by Jonathan Pacheco<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;MonoMail.viennastyle.zip"><b>Mono Mail<&#47;b><&#47;a> Contributed by Tim Stalin<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;Mono.viennastyle.zip"><b>Mono<&#47;b><&#47;a> Contributed by Tim Stalin<br />
-	<&#47;li></p>
-<li>
-		<a href="http:&#47;&#47;www.ollieman.net&#47;code&#47;reader-styles&#47;"><b>ollieman.net style collection<&#47;b><&#47;a> A web site with a collection of Vienna styles (link updated).<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;floaterGRIS.viennastyle.zip"><b>FloaterGRIS<&#47;b><&#47;a> Contributed by Romain Lafourcade<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;softcover.viennastyle.zip"><b>Soft Cover<&#47;b><&#47;a> Derived from NetNewsWire Softcover theme by <a href="http:&#47;&#47;transient.moltenglobule.org&#47;all&#47;2005&#47;property-is-attributionsharealikelicense">Jesper<&#47;a>. Uploaded by <a href="%20http:&#47;&#47;hlb.yichi.org&#47;blog&#47;">Liang-Bin Hsueh<&#47;a><br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;GraphiteNormal.viennastyle.zip"><b>Graphite Normal<&#47;b><&#47;a> Uploaded by David Schniegler<br />
-	<&#47;li></p>
-<li>
-		<a href="userstyles&#47;GraphiteSpecial.viennastyle.zip"><b>Graphite Special<&#47;b><&#47;a> Uploaded by David Schniegler<br />
-	<&#47;li></p>
-<li>
-		<b><a href="userstyles&#47;pretty_boxes.viennastyle.zip">Pretty Boxes<&#47;a><&#47;b> Uploaded by Brandon Booth<br />
-	<&#47;li></p>
-<li>
-		<b><a href="userstyles&#47;glossybar.viennastyle.zip">Glossy Bar<&#47;a><&#47;b> Uploaded by Andrey Yazev<br />
-	<&#47;li></p>
-<li>
-		<b><a href="userstyles&#47;Civico201.viennastyle.zip">Civico 201<&#47;a><&#47;b> Uploaded by Unknown contributor. (Contact us to be credited. Thanks.)<br />
-	<&#47;li></p>
-<li>
-		<b><a href="userstyles&#47;Gazette.viennastyle.zip">Gazette<&#47;a><&#47;b> Uploaded by Nicolas Gruson (http:&#47;&#47;www.gilgam.com).<br />
-	<&#47;li></p>
-<li>
-		<b><a href="userstyles&#47;Gilgam.viennastyle.zip">Gilgam<&#47;a><&#47;b> Uploaded by Nicolas Gruson (http:&#47;&#47;www.gilgam.com)<br />
-	<&#47;li></p>
-<li>
-		<b><a href="userstyles&#47;Gilgampetit.viennastyle.zip">Gilgam Petit<&#47;a><&#47;b> Uploaded by Nicolas Gruson (http:&#47;&#47;www.gilgam.com)<br />
-	<&#47;li></p>
-<li>
-		<b><a href="userstyles&#47;Oopavision.viennastyle.zip">Oopavision<&#47;a><&#47;b> Uploaded by Unknown contributor. (Contact us to be credited!)<br />
-	<&#47;li></p>
-<li>
-		<b><a href="userstyles&#47;Rocko-Dark.viennastyle.zip">Rocko-Dark<&#47;a><&#47;b> Uploaded by SimpleMan46.<br />
-	<&#47;li></p>
-<li>
-		<b><a href="userstyles&#47;Rocko-Light.viennastyle.zip">Rocko-Lite<&#47;a><&#47;b> Uploaded by SimpleMan46<br />
-	<&#47;li></p>
-<li>
-		<b><a href="userstyles&#47;BigGrey.viennastyle.zip">BigGrey<&#47;a><&#47;b> Uploaded by Sebastian Kasparek.<br />
-	<&#47;li></p>
-<li>
-		<b><a href="userstyles&#47;TimesPaper.viennastyle.zip">TimesPaper<&#47;a><&#47;b> Uploaded by Robert Bienert.<br />
-	<&#47;li><br />
-<&#47;ul></p>
+	<li>
+		<a href="userstyles/FeedLightAqua.viennastyle.zip"><b>FeedLight Aqua</b></a> The current default theme in Vienna, contributed by <a href="http://graphr.net/">Alex Hong</a>
+	</li>
+	<li>
+		<a href="userstyles/GreyMonday.viennastyle.zip"><b>Grey Monday</b></a> Contributed by Mario Peischl
+	</li>
+	<li>
+		<a href="userstyles/yFlicks.viennastyle.zip"><b>yFlicks</b></a> Contributed by Jonathan Pacheco
+	</li>
+	<li>
+		<a href="userstyles/typebright-10-viennastyles.zip"><b>TypeBright</b></a> Contributed by Folletto Malefico
+	</li>
+	<li>
+		<a href="userstyles/Prague-Aqua.viennastyle.zip"><b>Prague-Aqua (Updated 4th Jan 2007)</b></a> Contributed by Didier Oswald
+	</li>
+	<li>
+		<a href="userstyles/Pushpin.viennastyle.zip"><b>Pushpin</b></a> Contributed by Didier Oswald
+	</li>
+	<li>
+		<a href="userstyles/aquapastelsigalakou.viennastyle.zip"><b>Aqua Pastel Sigalakou</b></a> Contributed by Anthony Sigalas
+	</li>
+	<li>
+		<a href="userstyles/flickrblacksigalakou.viennastyle.zip"><b>Flickr Black Sigalakou</b></a> Contributed by Anthony Sigalas
+	</li>
+	<li>
+		<a href="userstyles/minimalsigalakou.viennastyle.zip"><b>Minimal Sigalakou</b></a> Contributed by Anthony Sigalas
+	</li>
+	<li>
+		<a href="userstyles/Screenplay.viennastyle.zip"><b>Screenplay</b></a> Contributed by Jonathan Pacheco
+	</li>
+	<li>
+		<a href="http://sarah-and-john.com/john/vienna/dartanion.viennastyle.zip"><b>Dartanion</b></a> Contributed by johnnySw
+	</li>
+	<li>
+		<a href="userstyles/ViennaTimes.viennastyle.zip"><b>Vienna Times</b></a> Contributed by Jonathan Pacheco
+	</li>
+	<li>
+		<a href="userstyles/Cocoa.viennastyle.zip"><b>Cocoa</b></a> Contributed by Jonathan Pacheco
+	</li>
+	<li>
+		<a href="userstyles/Spotlight.viennastyle.zip"><b>Spotlight</b></a> Contributed by Jonathan Pacheco
+	</li>
+	<li>
+		<a href="userstyles/Sage.viennastyle.zip"><b>Sage</b></a> Contributed by Jonathan Pacheco
+	</li>
+	<li>
+		<a href="userstyles/MonoMail.viennastyle.zip"><b>Mono Mail</b></a> Contributed by Tim Stalin
+	</li>
+	<li>
+		<a href="userstyles/Mono.viennastyle.zip"><b>Mono</b></a> Contributed by Tim Stalin
+	</li>
+	<li>
+		<a href="http://www.ollieman.net/code/reader-styles/"><b>ollieman.net style collection</b></a> A web site with a collection of Vienna styles (link updated).
+	</li>
+	<li>
+		<a href="userstyles/floaterGRIS.viennastyle.zip"><b>FloaterGRIS</b></a> Contributed by Romain Lafourcade
+	</li>
+	<li>
+		<a href="userstyles/softcover.viennastyle.zip"><b>Soft Cover</b></a> Derived from NetNewsWire Softcover theme by <a href="http://transient.moltenglobule.org/all/2005/property-is-attributionsharealikelicense">Jesper</a>. Uploaded by <a href="%20http://hlb.yichi.org/blog/">Liang-Bin Hsueh</a>
+	</li>
+	<li>
+		<a href="userstyles/GraphiteNormal.viennastyle.zip"><b>Graphite Normal</b></a> Uploaded by David Schniegler
+	</li>
+	<li>
+		<a href="userstyles/GraphiteSpecial.viennastyle.zip"><b>Graphite Special</b></a> Uploaded by David Schniegler
+	</li>
+	<li>
+		<b><a href="userstyles/pretty_boxes.viennastyle.zip">Pretty Boxes</a></b> Uploaded by Brandon Booth
+	</li>
+	<li>
+		<b><a href="userstyles/glossybar.viennastyle.zip">Glossy Bar</a></b> Uploaded by Andrey Yazev
+	</li>
+	<li>
+		<b><a href="userstyles/Civico201.viennastyle.zip">Civico 201</a></b> Uploaded by Unknown contributor. (Contact us to be credited. Thanks.)
+	</li>
+	<li>
+		<b><a href="userstyles/Gazette.viennastyle.zip">Gazette</a></b> Uploaded by Nicolas Gruson (http://www.gilgam.com).
+	</li>
+	<li>
+		<b><a href="userstyles/Gilgam.viennastyle.zip">Gilgam</a></b> Uploaded by Nicolas Gruson (http://www.gilgam.com)
+	</li>
+	<li>
+		<b><a href="userstyles/Gilgampetit.viennastyle.zip">Gilgam Petit</a></b> Uploaded by Nicolas Gruson (http://www.gilgam.com)
+	</li>
+	<li>
+		<b><a href="userstyles/Oopavision.viennastyle.zip">Oopavision</a></b> Uploaded by Unknown contributor. (Contact us to be credited!)
+	</li>
+	<li>
+		<b><a href="userstyles/Rocko-Dark.viennastyle.zip">Rocko-Dark</a></b> Uploaded by SimpleMan46.
+	</li>
+	<li>
+		<b><a href="userstyles/Rocko-Light.viennastyle.zip">Rocko-Lite</a></b> Uploaded by SimpleMan46
+	</li>
+	<li>
+		<b><a href="userstyles/BigGrey.viennastyle.zip">BigGrey</a></b> Uploaded by Sebastian Kasparek.
+	</li>
+	<li>
+		<b><a href="userstyles/TimesPaper.viennastyle.zip">TimesPaper</a></b> Uploaded by Robert Bienert.
+	</li>
+</ul>
+
