@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Vienna 3.1.0 Released!'
+title: 'Vienna 3.1.1 Released!'
 author:
   display_name: josh
   login: josh
