@@ -7,12 +7,12 @@
 		<language>en-us</language>
 		<copyright>Copyright 2010-2015, Steve Palmer and contributors</copyright>
 		<item>
-			<title>Vienna 3.1.4 RC 1 :4c23084:</title>
-			<pubDate>Sun, 08 May 2016 14:22:09 +0300</pubDate>
-			<link>https://dl.bintray.com/viennarss/vienna-rss/Vienna3.1.4_rc1.tar.gz</link>
+			<title>Vienna 3.1.4 RC 2 :10b8f5f:</title>
+			<pubDate>Tue, 17 May 2016 03:44:12 +0300</pubDate>
+			<link>https://dl.bintray.com/viennarss/vienna-rss/Vienna3.1.4_rc2.tar.gz</link>
 			<sparkle:minimumSystemVersion>10.8.0</sparkle:minimumSystemVersion>
-			<enclosure url="https://dl.bintray.com/viennarss/vienna-rss/Vienna3.1.4_rc1.tar.gz" sparkle:version="5876" sparkle:shortVersionString="3.1.4 RC 1 :4c23084:" length="6384778" sparkle:dsaSignature="MC4CFQCmtn/t0I6LaG0IBeeALFrMd0Ch+wIVAK0RdG8xkSikqzruZn5Bb5oZOWq1" type="application/octet-stream"/>
-			<sparkle:releaseNotesLink>https://viennarss.github.io/sparkle-files/noteson3.1.4_rc1.html</sparkle:releaseNotesLink>
+			<enclosure url="https://dl.bintray.com/viennarss/vienna-rss/Vienna3.1.4_rc2.tar.gz" sparkle:version="5899" sparkle:shortVersionString="3.1.4 RC 2 :10b8f5f:" length="6378094" sparkle:dsaSignature="MCwCFCWvnfjq7U0vHoNtUGPg2l4/WyO3AhQmt7gChFx6jlJ6QldFrk/8jwQL5w==" type="application/octet-stream"/>
+			<sparkle:releaseNotesLink>https://viennarss.github.io/sparkle-files/noteson3.1.4_rc2.html</sparkle:releaseNotesLink>
 		</item>
 	</channel>
 </rss>
