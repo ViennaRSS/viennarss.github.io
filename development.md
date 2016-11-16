@@ -9,6 +9,9 @@ categories:
 ---
 
 The source code for Vienna lives at [GitHub](https://github.com/viennarss). This section is intended to help you get started with downloading and building Vienna on your own machine. See the [Vienna GitHub Page](https://github.com/viennarss/vienna-rss) to quickly browse the Vienna sources. The rest of this page explains how to download the source to your machine.
+
+<script src="https://www.openhub.net/p/vienna-rss/widgets/project_factoids?format=js"></script>
+
 <h2>
 	Getting the Source
 </h2>
