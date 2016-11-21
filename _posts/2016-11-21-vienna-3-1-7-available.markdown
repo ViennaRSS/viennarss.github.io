@@ -12,6 +12,7 @@ categories:
 - News
 ---
 This release of Vienna fixes several issues including:
+
 * Fix some graphics glitches for users of macOS Sierra
 * Fix 'N' key to not scan fresher articles from same folder, except for smart folders
 * Fix 'B' key to always go to first unread article
