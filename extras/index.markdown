@@ -25,11 +25,14 @@ comments: []
 
 To install custom styles, click on the style name to download it then double-click the downloaded file to unpack the ZIP file. (Browsers like Safari will automatically unpack the file for you). Then finally double-click the extracted .viennastyle file to automatically install the style into Vienna.
 
-See the [Creating Custom Styles](http://www.vienna-rss.org/?page_id=65) page for instructions on how to create your own styles.
+See the [Creating Custom Styles](/creating-custom-styles/) page for instructions on how to create your own styles.
 
 <ul>
 	<li>
 		<a href="userstyles/FeedLightAqua.viennastyle.zip"><b>FeedLight Aqua</b></a> The current default theme in Vienna, contributed by <a href="http://graphr.net/">Alex Hong</a>
+	</li>
+	<li>
+	   <a href="http://www.vienna-rss.org/userstyles/JustSimple.viennastyle.zip"><b>Just Simple</b></a>, contributed by <a href="https://www.danielhutnan.com">Daniel Hutnan</a>
 	</li>
 	<li>
 		<a href="userstyles/GreyMonday.viennastyle.zip"><b>Grey Monday</b></a> Contributed by Mario Peischl
@@ -80,13 +83,10 @@ See the [Creating Custom Styles](http://www.vienna-rss.org/?page_id=65) page for
 		<a href="userstyles/Mono.viennastyle.zip"><b>Mono</b></a> Contributed by Tim Stalin
 	</li>
 	<li>
-		<a href="http://www.ollieman.net/code/reader-styles/"><b>ollieman.net style collection</b></a> A web site with a collection of Vienna styles (link updated).
-	</li>
-	<li>
 		<a href="userstyles/floaterGRIS.viennastyle.zip"><b>FloaterGRIS</b></a> Contributed by Romain Lafourcade
 	</li>
 	<li>
-		<a href="userstyles/softcover.viennastyle.zip"><b>Soft Cover</b></a> Derived from NetNewsWire Softcover theme by <a href="http://transient.moltenglobule.org/all/2005/property-is-attributionsharealikelicense">Jesper</a>. Uploaded by <a href="%20http://hlb.yichi.org/blog/">Liang-Bin Hsueh</a>
+		<a href="userstyles/softcover.viennastyle.zip"><b>Soft Cover</b></a> Derived from NetNewsWire Softcover theme by <a href="http://transient.moltenglobule.org/all/2005/property-is-attributionsharealikelicense">Jesper</a>. Uploaded by <a href="http://hlb.yichi.org/blog/">Liang-Bin Hsueh</a>
 	</li>
 	<li>
 		<a href="userstyles/GraphiteNormal.viennastyle.zip"><b>Graphite Normal</b></a> Uploaded by David Schniegler
@@ -104,13 +104,13 @@ See the [Creating Custom Styles](http://www.vienna-rss.org/?page_id=65) page for
 		<b><a href="userstyles/Civico201.viennastyle.zip">Civico 201</a></b> Uploaded by Unknown contributor. (Contact us to be credited. Thanks.)
 	</li>
 	<li>
-		<b><a href="userstyles/Gazette.viennastyle.zip">Gazette</a></b> Uploaded by Nicolas Gruson (http://www.gilgam.com).
+		<b><a href="userstyles/Gazette.viennastyle.zip">Gazette</a></b> Uploaded by Nicolas Gruson
 	</li>
 	<li>
-		<b><a href="userstyles/Gilgam.viennastyle.zip">Gilgam</a></b> Uploaded by Nicolas Gruson (http://www.gilgam.com)
+		<b><a href="userstyles/Gilgam.viennastyle.zip">Gilgam</a></b> Uploaded by Nicolas Gruson
 	</li>
 	<li>
-		<b><a href="userstyles/Gilgampetit.viennastyle.zip">Gilgam Petit</a></b> Uploaded by Nicolas Gruson (http://www.gilgam.com)
+		<b><a href="userstyles/Gilgampetit.viennastyle.zip">Gilgam Petit</a></b> Uploaded by Nicolas Gruson
 	</li>
 	<li>
 		<b><a href="userstyles/Oopavision.viennastyle.zip">Oopavision</a></b> Uploaded by Unknown contributor. (Contact us to be credited!)
