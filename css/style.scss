@@ -1,3 +1,6 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
 // Initialize
 @import "../_sass/variables.scss";
 @import "../_sass/mixins.scss";
@@ -19,7 +22,6 @@
 @import "../_sass/blog.scss";
 @import "../_sass/shop.scss";
 @import "../_sass/events.scss";
-
 
 // Shortcodes
 @import "../_sass/shortcodes.scss";

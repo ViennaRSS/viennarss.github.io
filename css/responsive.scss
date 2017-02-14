@@ -1,7 +1,10 @@
+---
+---
 /*-----------------------------------------------------------------------------------
 	sass/responsive.scss
 -----------------------------------------------------------------------------------*/
-
+@import "../_sass/variables.scss";
+@import "../_sass/mixins.scss";
 
 @media only screen and (max-width: 1199px) {
 
@@ -1207,7 +1210,9 @@
 				height: auto;
 				border-left: 0;
 				border-top: 1px solid rgba(0,0,0,0.05);
-				@include border-radius(0, 0, 3px, 3px)
+				//@include border-radius(0, 0, 3px, 3px);
+        //error Mixin border-radius takes 1 argument but 4 were passed.
+        //not sure how to fix this...
 			}
 		}
 	}

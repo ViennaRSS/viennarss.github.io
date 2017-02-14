@@ -1,8 +1,10 @@
+---
+---
 /*-----------------------------------------------------------------------------------
 	Dark Scheme - sass/dark.scss
 -----------------------------------------------------------------------------------*/
 
-
+@import "../_sass/variables.scss";
 .dark,
 .dark h1,
 .dark h2,
@@ -1717,4 +1719,3 @@ body #side-panel.dark #side-panel-trigger-close a {
 	.dark .pricing-box.pricing-extended .pricing-action-area { border-top-color: rgba(255,255,255,0.15); }
 
 }
-
