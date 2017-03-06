@@ -11,7 +11,7 @@ author:
 author_login: Steve Palmer
 author_email: stevewpalmer@gmail.com
 wordpress_id: 120
-wordpress_url: http://www.vienna-rss.org/?page_id=120
+wordpress_url: http://www.vienna-rss.com/?page_id=120
 date: '2010-01-16 15:09:09 +1100'
 date_gmt: '2010-01-16 15:09:09 +1100'
 categories:
@@ -21,27 +21,27 @@ comments:
 - id: 13
   author: A Vienna 2.5 Sneak Peek&nbsp;|&nbsp;Vienna RSS
   author_email: ''
-  author_url: http://www.vienna-rss.org/?p=201
+  author_url: http://www.vienna-rss.com/?p=201
   date: '2010-01-18 12:02:05 +1100'
   date_gmt: '2010-01-18 12:02:05 +1100'
   content: "[...] Creating Plugins (v2.5) [...]"
 - id: 65
   author: Vienna 2.5 BETA&nbsp;|&nbsp;Vienna RSS
   author_email: ''
-  author_url: http://www.vienna-rss.org/?p=237
+  author_url: http://www.vienna-rss.com/?p=237
   date: '2010-02-08 13:07:15 +1100'
   date_gmt: '2010-02-08 13:07:15 +1100'
   content: "[...] Creating Plugins (v2.5) [...]"
 - id: 411
   author: Vienna 2.5 &#8211; The Social Sharing Edition&nbsp;|&nbsp;Vienna RSS
   author_email: ''
-  author_url: http://www.vienna-rss.org/?p=285
+  author_url: http://www.vienna-rss.com/?p=285
   date: '2010-03-19 09:18:42 +1100'
   date_gmt: '2010-03-19 09:18:42 +1100'
   content: "[...] Creating Plugins (v2.5) [...]"
 ---
 <p>Starting with v2.5 and later, Vienna supports plugins which are installed on the toolbar and can run defined actions. These plugins are XML-based and can be created by editing a simple <a href="http://developer.apple.com/mac/library/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html">.plist-file</a> without any knowledge of Cocoa programming, in as little as 15 minutes.  This section describes how to create your own plugins, which will look and work exactly like the built-in ones:<br />
-<center><img alt="Vienna 2.5 supports user-creatable plugins" src="http://www.vienna-rss.org/img/plugins.png" title="Vienna 2.5 supports user-creatable plugins" width="327" height="77" /></center></p>
+<center><img alt="Vienna 2.5 supports user-creatable plugins" src="http://www.vienna-rss.com/img/plugins.png" title="Vienna 2.5 supports user-creatable plugins" width="327" height="77" /></center></p>
 <p><br><br />
 <h2>Creating the Plugin Bundle</h2><br />
 Vienna plugins are distributed in the form of folders with the extension "<strong>.viennaplugin</strong>", which OS X automatically treats as bundles. Simply create a new folder, named like your new plugin. Then edit its name and append ".viennaplugin". This registers the folder as a Vienna plugin folder so that it can be double-clicked or dragged-and-dropped on the Vienna application icon to automatically install it. After this step, you can view the folder's contents via control/right-clicking and choosing "Show Package Contents" from the menu.</p>
@@ -105,7 +105,7 @@ The actual configuration of the plugin happens in its "info.plist". The followin
 <li><strong>Name</strong>: (mandatory) this is a short, internal, name that uniquely identifies the plugin. It is now displayed in the UI.</li>
 <li><strong>Type</strong>: (mandatory) this specifies the plugin type. Three values are accepted: <strong>Link</strong>,  <strong>Script</strong> and <strong>BlogEditor</strong>.</li>
 <li><strong>BundleIdentifier</strong>: Only used for BlogEditor plugins, this defines the identifier of the application that you want to be called.</li>
-<li><strong>URL</strong>: (mandatory for link-type plugins) this is the URL that is browed when the plugin button is clicked. Vienna substitutes the $...$ placeholders with actual values from the current article being viewed. See <a href="http://www.vienna-rss.org/?page_id=65">here</a> for a list of placeholders.</li>
+<li><strong>URL</strong>: (mandatory for link-type plugins) this is the URL that is browed when the plugin button is clicked. Vienna substitutes the $...$ placeholders with actual values from the current article being viewed. See <a href="http://www.vienna-rss.com/?page_id=65">here</a> for a list of placeholders.</li>
 <li><strong>Script</strong>: (mandatory for script-type plugins) this is the name of the script file in the same folder as the info.plist.</li>
 <li><strong>Default</strong>: if this is set to true then this plugin appears on the default toolbar.</li>
 <li><strong>FriendlyName</strong>: this is the short name of the plugin that appears as the plugin button text on the toolbar. It should be kept as short as possible. If omitted, the internal name is used instead.</li>

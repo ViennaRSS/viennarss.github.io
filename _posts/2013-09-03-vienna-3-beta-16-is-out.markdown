@@ -6,13 +6,13 @@ title: Vienna 3 Beta 16 is out
 author:
   display_name: barijaona
   login: barijaona
-  email: vienna-rss.org@barijaona.com
+  email: vienna-rss.com@barijaona.com
   url: http://blog.barijaona.com
 author_login: barijaona
-author_email: vienna-rss.org@barijaona.com
+author_email: vienna-rss.com@barijaona.com
 author_url: http://blog.barijaona.com
 wordpress_id: 413
-wordpress_url: http://www.vienna-rss.org/?p=413
+wordpress_url: http://www.vienna-rss.com/?p=413
 date: '2013-09-03 03:53:24 +1000'
 date_gmt: '2013-09-03 03:53:24 +1000'
 categories:

@@ -11,7 +11,7 @@ author:
 author_login: josh
 author_email: josh64@gmail.com
 wordpress_id: 416
-wordpress_url: http://www.vienna-rss.org/?p=416
+wordpress_url: http://www.vienna-rss.com/?p=416
 date: '2014-10-25 23:41:23 +1100'
 date_gmt: '2014-10-25 23:41:23 +1100'
 categories:

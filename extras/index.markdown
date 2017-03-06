@@ -7,12 +7,12 @@ author:
   display_name: Vienna Administrators
   login: admin
   email: vienna-rss-admins@sourceforge.net
-  url: http://www.vienna-rss.org
+  url: http://www.vienna-rss.com
 author_login: admin
 author_email: vienna-rss-admins@sourceforge.net
-author_url: http://www.vienna-rss.org
+author_url: http://www.vienna-rss.com
 wordpress_id: 76
-wordpress_url: http://www.vienna-rss.org/?page_id=76
+wordpress_url: http://www.vienna-rss.com/?page_id=76
 date: '2010-01-09 13:48:40 +1100'
 date_gmt: '2010-01-09 13:48:40 +1100'
 categories:
@@ -32,7 +32,7 @@ See the [Creating Custom Styles](/extras/creating-custom-styles/) page for instr
 		<a href="userstyles/FeedLightAqua.viennastyle.zip"><b>FeedLight Aqua</b></a> The current default theme in Vienna, contributed by <a href="http://graphr.net/">Alex Hong</a>
 	</li>
 	<li>
-	   <a href="http://www.vienna-rss.org/userstyles/JustSimple.viennastyle.zip"><b>Just Simple</b></a>, contributed by <a href="https://www.danielhutnan.com">Daniel Hutnan</a>
+	   <a href="http://www.vienna-rss.com/userstyles/JustSimple.viennastyle.zip"><b>Just Simple</b></a>, contributed by <a href="https://www.danielhutnan.com">Daniel Hutnan</a>
 	</li>
 	<li>
 		<a href="userstyles/GreyMonday.viennastyle.zip"><b>Grey Monday</b></a> Contributed by Mario Peischl

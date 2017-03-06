@@ -6,13 +6,13 @@ title: If you are a Google Reader user&hellip;
 author:
   display_name: barijaona
   login: barijaona
-  email: vienna-rss.org@barijaona.com
+  email: vienna-rss.com@barijaona.com
   url: http://blog.barijaona.com
 author_login: barijaona
-author_email: vienna-rss.org@barijaona.com
+author_email: vienna-rss.com@barijaona.com
 author_url: http://blog.barijaona.com
 wordpress_id: 401
-wordpress_url: http://www.vienna-rss.org/?p=401
+wordpress_url: http://www.vienna-rss.com/?p=401
 date: '2013-06-29 05:04:59 +1000'
 date_gmt: '2013-06-29 05:04:59 +1000'
 categories:

@@ -12,7 +12,7 @@ author_login: Michael Stroeck
 author_email: michael@stroeck.com
 author_url: http://www.twitter.com/mstroeck
 wordpress_id: 366
-wordpress_url: http://www.vienna-rss.org/?p=366
+wordpress_url: http://www.vienna-rss.com/?p=366
 date: '2011-12-18 19:06:24 +1100'
 date_gmt: '2011-12-18 19:06:24 +1100'
 categories:
@@ -38,7 +38,7 @@ comments:
 - id: 5417
   author: Vienna Administrators
   author_email: vienna-rss-admins@sourceforge.net
-  author_url: http://www.vienna-rss.org
+  author_url: http://www.vienna-rss.com
   date: '2011-12-19 04:14:31 +1100'
   date_gmt: '2011-12-19 04:14:31 +1100'
   content: That is rather weird - it worked on all our test machines. Please download
@@ -161,5 +161,5 @@ comments:
     of Mac OS X. Is there an other way?'
 ---
 <p>2.6 has been stable for a very, very long time - so I'll just make it official :-) One small but handy thing that I added is a plugin for effortless sharing with <a href="http:&#47;&#47;www.bufferapp.com">Buffer<&#47;a>. It's a very useful service that has popped up between the beta release and now - check it out and have fun!</p>
-<p><center><a href="http:&#47;&#47;sourceforge.net&#47;projects&#47;vienna-rss&#47;files&#47;ReleasedVersions&#47;2.6.0&#47;Vienna2.6.0.2601.zip&#47;download"><img alt="Vienna 2.6 supports user-creatable plugins" src="http:&#47;&#47;www.vienna-rss.org&#47;img&#47;plugins.png" title="Vienna 2.6 supports user-creatable plugins" width="327" height="77" &#47;><&#47;a><br&#47;><br />
+<p><center><a href="http:&#47;&#47;sourceforge.net&#47;projects&#47;vienna-rss&#47;files&#47;ReleasedVersions&#47;2.6.0&#47;Vienna2.6.0.2601.zip&#47;download"><img alt="Vienna 2.6 supports user-creatable plugins" src="http:&#47;&#47;www.vienna-rss.com&#47;img&#47;plugins.png" title="Vienna 2.6 supports user-creatable plugins" width="327" height="77" &#47;><&#47;a><br&#47;><br />
 <h3>Click to download: <a href="http:&#47;&#47;sourceforge.net&#47;projects&#47;vienna-rss&#47;files&#47;ReleasedVersions&#47;2.6.0&#47;Vienna2.6.0.2601.zip&#47;download"><strong>Vienna 2.6<&#47;strong><&#47;a><&#47;h3><&#47;center></p>
