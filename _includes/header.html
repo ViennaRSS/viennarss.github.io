@@ -1,24 +1,36 @@
 <header class="site-header">
 
-  <div class="wrapper">
+<!--   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-    <nav class="site-nav">
-      </a>
+<nav class="site-nav">
+</a>
 
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
+<div class="trigger">
+  <nav id="primary-menu" class="style-2 center">
 
+    <div class="container clearfix">
+
+      <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+  <ul>
+
+{% for page in site.pages %}
+{% if page.title %}
+<li class="mega-menu"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a><li>
+{% endif %}
+{% endfor %}
+  </ul>
+    </div>
   </div>
+</div>
+  </nav> -->
+
 
 </header>
+
+
 
  <header id="header" class="sticky-style-2">
 
@@ -44,12 +56,12 @@
 						<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
 						<ul>
-							<li class="current"><a href="{{ site.baseurl }}/"><div>{{ page.title }}</div></a></li>
-							<li><a href="{{ page.url | prepend: site.baseurl }}"><div>About</div></a></li>
-							<li class="mega-menu"><a href="#"><div>Development</div></a></li>
-							<li class="mega-menu"><a href="#"><div>Blog</div></a></li>
-							<li class="mega-menu"><a href="#"><div>Extras</div></a></li>
-							<li><a href="shop.html"><div>Forum</div></a></li>
+						 <!--  <li class="current"><a href="{{ site.baseurl }}/"><div>{{ page.title }}</div></a></li> -->
+						  <li><a href="{{ page.url | prepend: site.baseurl }}"><div>About</div></a></li>
+						  <li class="mega-menu"><a href="faq"><div>Development</div></a></li>
+						  <li class="mega-menu"><a href="#"><div>Blog</div></a></li>
+						  <li class="mega-menu"><a href="#"><div>Extras</div></a></li>
+						  <li><a href="shop.html"><div>Forum</div></a></li>
 						</ul>
 
 					</div>
