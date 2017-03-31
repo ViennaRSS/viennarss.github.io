@@ -12,7 +12,7 @@ author_login: josh
 author_email: josh64@gmail.com
 excerpt: 'Vienna is now on the freenode IRC network in the channel #ViennaRSS'
 wordpress_id: 431
-wordpress_url: http://www.vienna-rss.org/?p=431
+wordpress_url: http://www.vienna-rss.com/?p=431
 date: '2014-12-01 07:46:26 +1100'
 date_gmt: '2014-12-01 07:46:26 +1100'
 categories:

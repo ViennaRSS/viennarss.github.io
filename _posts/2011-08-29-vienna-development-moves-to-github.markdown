@@ -12,7 +12,7 @@ author_login: Michael Stroeck
 author_email: michael@stroeck.com
 author_url: http://www.twitter.com/mstroeck
 wordpress_id: 358
-wordpress_url: http://www.vienna-rss.org/?p=358
+wordpress_url: http://www.vienna-rss.com/?p=358
 date: '2011-08-29 21:03:49 +1000'
 date_gmt: '2011-08-29 21:03:49 +1000'
 categories:
@@ -40,7 +40,7 @@ comments:
 - id: 5319
   author: Vienna Administrators
   author_email: vienna-rss-admins@sourceforge.net
-  author_url: http://www.vienna-rss.org
+  author_url: http://www.vienna-rss.com
   date: '2011-09-22 08:57:31 +1000'
   date_gmt: '2011-09-22 08:57:31 +1000'
   content: |-

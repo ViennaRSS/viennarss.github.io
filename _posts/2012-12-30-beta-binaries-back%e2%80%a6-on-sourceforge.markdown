@@ -6,13 +6,13 @@ title: Vienna beta binaries back&hellip; on SourceForge
 author:
   display_name: barijaona
   login: barijaona
-  email: vienna-rss.org@barijaona.com
+  email: vienna-rss.com@barijaona.com
   url: http://blog.barijaona.com
 author_login: barijaona
-author_email: vienna-rss.org@barijaona.com
+author_email: vienna-rss.com@barijaona.com
 author_url: http://blog.barijaona.com
 wordpress_id: 383
-wordpress_url: http://www.vienna-rss.org/?p=383
+wordpress_url: http://www.vienna-rss.com/?p=383
 date: '2012-12-30 00:41:25 +1100'
 date_gmt: '2012-12-30 00:41:25 +1100'
 categories:

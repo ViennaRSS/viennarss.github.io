@@ -12,7 +12,7 @@ author_login: Michael Stroeck
 author_email: michael@stroeck.com
 author_url: http://www.twitter.com/mstroeck
 wordpress_id: 303
-wordpress_url: http://www.vienna-rss.org/?p=303
+wordpress_url: http://www.vienna-rss.com/?p=303
 date: '2010-03-25 21:03:32 +1100'
 date_gmt: '2010-03-25 21:03:32 +1100'
 categories:

@@ -23,7 +23,7 @@ categories:
 	Where?
 </h2>
 <p>
-	The project's <a href="http://www.github.com/ViennaRSS/vienna-rss">Git repository</a> is hosted by <a href="http://github.com">GitHub</a>. The easiest way to contact the developers is via the <a href="http://forums.cocoaforge.com/viewforum.php?f=18">Vienna forums</a> at Cocoaforge. For more on how to contribute to the project read this: <a href="http://www.vienna-rss.org/?page_id=16">Vienna Development</a>.
+	The project's <a href="http://www.github.com/ViennaRSS/vienna-rss">Git repository</a> is hosted by <a href="http://github.com">GitHub</a>. The easiest way to contact the developers is via the <a href="http://forums.cocoaforge.com/viewforum.php?f=18">Vienna forums</a> at Cocoaforge. For more on how to contribute to the project read this: <a href="http://www.vienna-rss.com/?page_id=16">Vienna Development</a>.
 </p>
 <h2>
 	Who uses Vienna?
@@ -32,9 +32,9 @@ categories:
 	Actual users are always hard to track, but to date Vienna has been downloaded over 450.000 times from Sourceforge's servers alone. If you are responsible for one of those downloads: Thank you!
 </p>
 <h2>
-	vienna-rss.org?
+	vienna-rss.com?
 </h2>
 <p>
-	vienna-rss.org is graciously hosted by <a href="http://www.sourceforge.net">SourceForge</a>. The website was created by Michael Ströck and is based on a Wordpress theme from <a href="http://www.woothemes.com">WooThemes</a>.
+	vienna-rss.com is graciously hosted by <a href="http://www.sourceforge.net">SourceForge</a>. The website was created by Michael Ströck and is based on a Wordpress theme from <a href="http://www.woothemes.com">WooThemes</a>.
 </p>
 
