@@ -21,4 +21,4 @@ tags: []
 comments: []
 ---
 <p>Vienna 3 Release Candidate 9 requires Mac OS X Snow Leopard (10.6) or later.</p>
-<p>We highly recommend all users of previous versions upgrade to this version, especially those using Mac OS X Yosemite (10.10). <a href="https:&#47;&#47;sourceforge.net&#47;projects&#47;vienna-rss&#47;files&#47;latest&#47;download">Download link<&#47;a></p>
+<p>We highly recommend all users of previous versions upgrade to this version, especially those using Mac OS X Yosemite (10.10). <a href="https://sourceforge.net/projects/vienna-rss/files/latest/download">Download link</a></p>
