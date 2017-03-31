@@ -12,7 +12,7 @@ author_login: Michael Stroeck
 author_email: michael@stroeck.com
 author_url: http://www.twitter.com/mstroeck
 wordpress_id: 215
-wordpress_url: http://www.vienna-rss.org/?p=215
+wordpress_url: http://www.vienna-rss.com/?p=215
 date: '2010-01-20 19:53:08 +1100'
 date_gmt: '2010-01-20 19:53:08 +1100'
 categories:
@@ -32,7 +32,7 @@ comments:
 - id: 18
   author: Vienna Administrators
   author_email: vienna-rss-admins@sourceforge.net
-  author_url: http://www.vienna-rss.org
+  author_url: http://www.vienna-rss.com
   date: '2010-01-21 04:40:40 +1100'
   date_gmt: '2010-01-21 04:40:40 +1100'
   content: No, it doesn't. It only Percent-Escapes.

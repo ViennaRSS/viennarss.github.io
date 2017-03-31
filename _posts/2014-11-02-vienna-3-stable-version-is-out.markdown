@@ -6,13 +6,13 @@ title: Vienna 3 (stable version) is out
 author:
   display_name: barijaona
   login: barijaona
-  email: vienna-rss.org@barijaona.com
+  email: vienna-rss.com@barijaona.com
   url: http://blog.barijaona.com
 author_login: barijaona
-author_email: vienna-rss.org@barijaona.com
+author_email: vienna-rss.com@barijaona.com
 author_url: http://blog.barijaona.com
 wordpress_id: 428
-wordpress_url: http://www.vienna-rss.org/?p=428
+wordpress_url: http://www.vienna-rss.com/?p=428
 date: '2014-11-02 19:46:26 +1100'
 date_gmt: '2014-11-02 19:46:26 +1100'
 categories:
