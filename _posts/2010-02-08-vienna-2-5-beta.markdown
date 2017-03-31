@@ -19,49 +19,25 @@ categories:
 - Blog
 - News
 tags: []
-comments:
-- id: 66
-  author: uberVU - social comments
-  author_email: ''
-  author_url: http://www.ubervu.com/conversations/www.vienna-rss.com/%3Fp%3D237
-  date: '2010-02-08 14:56:26 +1100'
-  date_gmt: '2010-02-08 14:56:26 +1100'
-  content: |-
-    <strong>Social comments and analytics for this post...<&#47;strong>
-
-    This post was mentioned on Twitter by ViennaRSS: Vienna 2.5 BETA released, with social sharing goodness: http:&#47;&#47;tinyurl.com&#47;ydm6qjz...
-- id: 91
-  author: Vienna Administrators
-  author_email: vienna-rss-admins@sourceforge.net
-  author_url: http://www.vienna-rss.com
-  date: '2010-02-11 16:22:08 +1100'
-  date_gmt: '2010-02-11 16:22:08 +1100'
-  content: 'I agree that it would be nice. However: We''re not in competition with
-    any-one :-) By all metrics available to us (downloads, forum posts, blog posts,
-    Twitter, iusethis.com) Vienna''s user-base is also growing, not shrinking. We
-    have started working on Google Reader synch, and it might make it into the next
-    version. But really, it''s just not a pleasure to work on, and its just a fact
-    open source developers scratch their own itch first and foremost.. It''s an undocumented
-    API, after all...'
 ---
-<p>The Vienna Development team is happy to announce the beta release of Vienna 2.5. This is a testing release that, among other things, adds extendability via a new <a href="http:&#47;&#47;www.vienna-rss.com&#47;?page_id=120">plugin development API<&#47;a> and fixes a small number of bugs. To be more precise, the new plugins make it extremely simple to extend Vienna with sharing capabilities that leverage social networking sites like <a href="http:&#47;&#47;www.facebook.com">Facebook<&#47;a> and <a href="http:&#47;&#47;www.twitter.com&#47;ViennaRSS">Twitter<&#47;a>. <center><a href="https:&#47;&#47;sourceforge.net&#47;projects&#47;vienna-rss&#47;files&#47;TestVersions&#47;2.5.0.2500&#47;Vienna2.5.0.2500-BETA.zip&#47;download"><img alt="Vienna 2.5 supports user-creatable plugins" src="http:&#47;&#47;www.vienna-rss.com&#47;img&#47;plugins.png" title="Vienna 2.5 supports user-creatable plugins" width="327" height="77" &#47;><&#47;a><br&#47;><br />
-<h3>Click to download: <a href="https:&#47;&#47;sourceforge.net&#47;projects&#47;vienna-rss&#47;files&#47;TestVersions&#47;2.5.0.2500&#47;Vienna2.5.0.2500-BETA.zip&#47;download"><strong>Vienna 2.5 BETA<&#47;strong><&#47;a><&#47;h3><&#47;center></p>
-<h3>Requirements<&#47;h3><br />
-Vienna 2.5 BETA <strong>requires Mac OS X 10.5<&#47;strong> Leopard or higher to run.</p>
-<h3>Pre-release software<&#47;h3><br />
-The Vienna 2.5 BETA version is pre-release software, and it may contain bugs. If you discover a bug, please create a new topic here in the Vienna forum and report the bug to us. Some tips for writing good bug reports can be found at <a href="http:&#47;&#47;forums.cocoaforge.com&#47;viewtopic.php?f=18&t=9210">http:&#47;&#47;forums.cocoaforge.com&#47;viewtopic.php?f=18&t=9210<&#47;a>. For safety, we recommend that you back up your files before running the beta version. Vienna's files are located at "~&#47;Library&#47;Preferences&#47;uk.co.opencommunity.vienna2.plist" and "~&#47;Library&#47;Application Support&#47;Vienna". When 2.5 goes out of beta, Vienna will automatically update to the release version.</p>
-<h3>New features<&#47;h3></p>
+<p>The Vienna Development team is happy to announce the beta release of Vienna 2.5. This is a testing release that, among other things, adds extendability via a new <a href="http://www.vienna-rss.com/?page_id=120">plugin development API</a> and fixes a small number of bugs. To be more precise, the new plugins make it extremely simple to extend Vienna with sharing capabilities that leverage social networking sites like <a href="http://www.facebook.com">Facebook</a> and <a href="http://www.twitter.com/ViennaRSS">Twitter</a>. <center><a href="https://sourceforge.net/projects/vienna-rss/files/TestVersions/2.5.0.2500/Vienna2.5.0.2500-BETA.zip/download"><img alt="Vienna 2.5 supports user-creatable plugins" src="http://www.vienna-rss.com/img/plugins.png" title="Vienna 2.5 supports user-creatable plugins" width="327" height="77" /></a><br/><br />
+<h3>Click to download: <a href="https://sourceforge.net/projects/vienna-rss/files/TestVersions/2.5.0.2500/Vienna2.5.0.2500-BETA.zip/download"><strong>Vienna 2.5 BETA</strong></a></h3></center></p>
+<h3>Requirements</h3><br />
+Vienna 2.5 BETA <strong>requires Mac OS X 10.5</strong> Leopard or higher to run.</p>
+<h3>Pre-release software</h3><br />
+The Vienna 2.5 BETA version is pre-release software, and it may contain bugs. If you discover a bug, please create a new topic here in the Vienna forum and report the bug to us. Some tips for writing good bug reports can be found at <a href="https://forums.cocoaforge.com/viewtopic.php?f=18&t=9210">https://forums.cocoaforge.com/viewtopic.php?f=18&t=9210</a>. For safety, we recommend that you back up your files before running the beta version. Vienna's files are located at "~/Library/Preferences/uk.co.opencommunity.vienna2.plist" and "~/Library/Application Support/Vienna". When 2.5 goes out of beta, Vienna will automatically update to the release version.</p>
+<h3>New features</h3></p>
 <ul>
-<li>Add support for <strong>plugins<&#47;strong>. For details, see the <a href="http:&#47;&#47;www.vienna-rss.com&#47;?page_id=120">Plugin Documentation<&#47;a>.
+<li>Add support for <strong>plugins</strong>. For details, see the <a href="http://www.vienna-rss.com/?page_id=120">Plugin Documentation</a>.
 <li>Add a facility for automatic URL shortening via bit.ly that can be used by all plugins.
-<li>Add <strong>"Share with Twitter"<&#47;strong> plugin and toolbar button.
-<li>Add <strong>"Share with Facebook"<&#47;strong> plugin and toolbar button.
-<li>Add <strong>"Share with Evernote"<&#47;strong> plugin and toolbar button.
+<li>Add <strong>"Share with Twitter"</strong> plugin and toolbar button.
+<li>Add <strong>"Share with Facebook"</strong> plugin and toolbar button.
+<li>Add <strong>"Share with Evernote"</strong> plugin and toolbar button.
 <li>Web plugins (especially audio- and video-players) now continue to operate while in the background.<br />
-<&#47;ul></p>
-<h3>Fixes<&#47;h3></p>
+</ul></p>
+<h3>Fixes</h3></p>
 <ul>
 <li>Fix bug that caused Vienna to become unresponsive after deleting a feed in Unified view.
 <li>Update to the current version of Sparkle, which prevents auto-updating to a version of Vienna which will not run on the user's system.
 <li>Fix bug where deleting a feed in Unified view mode would cause Vienna to stop working correctly.<br />
-<&#47;ul></p>
+</ul></p>

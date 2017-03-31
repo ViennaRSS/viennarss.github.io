@@ -2,39 +2,37 @@
 layout: post
 status: publish
 published: true
-title: Vienna 2.4 Released
+title: 'Vienna 2.4 BETA '
 author:
-  display_name: Michael G. Ströck
-  login: Michael Stroeck
-  email: michael@stroeck.com
-  url: http://www.twitter.com/mstroeck
-author_login: Michael Stroeck
-author_email: michael@stroeck.com
-author_url: http://www.twitter.com/mstroeck
-wordpress_id: 108
-wordpress_url: http://www.vienna-rss.com/?p=108
-date: '2010-01-12 17:56:45 +1100'
-date_gmt: '2010-01-12 17:56:45 +1100'
+  display_name: Jeff Johnson
+  login: Jeff Johnson
+  email: vienna@lapcatsoftware.com
+  url: http://www.lapcatsoftware.com
+author_login: Jeff Johnson
+author_email: vienna@lapcatsoftware.com
+author_url: http://www.lapcatsoftware.com
+wordpress_id: 13
+wordpress_url: http://vienna-rss.sourceforge.net/?p=13
+date: '2010-01-08 21:15:40 +1100'
+date_gmt: '2010-01-08 21:15:40 +1100'
 categories:
 - Blog
 tags: []
 ---
-<p>The Vienna team is happy to announce the release of Vienna 2.4! You can download it from SourceForge at <a title="Vienna 2.4 Beta" href="http://sourceforge.net/projects/vienna-rss/files/ReleasedVersions/2.4.0/Vienna2.4.0.2401.zip/download" target="_self">Vienna 2.4</a>. An English-only version can be <a href="http://sourceforge.net/projects/vienna-rss/files/ReleasedVersions/2.4.0/Vienna2.4.0.2401.en-us.zip/download">downloaded</a> as well. </p>
+<p>The Vienna team is happy to announce a public beta version of the upcoming Vienna 2.4 release. You can download the beta version from SourceForge at <a title="Vienna 2.4 Beta" href="https://sourceforge.net/projects/vienna-rss/files/Test%20Versions/2.4.0.2400/Vienna2.4.0.2400.zip/download" target="_self">Vienna build 2400</a>. An English-only version can be downloaded as well. Once you start using the beta, future beta versions of 2.4.0 as well as the final release will appear in Vienna's built-in Check for Updates.</p>
 <h2>Requirements</h2></p>
 <p>Vienna 2.4 requires Mac OS X 10.5 Leopard or higher to run. Sorry, we can no longer support Mac OS X 10.4 Tiger.</p>
+<h2>Pre-release software</h2></p>
+<p>The Vienna 2.4 beta version is pre-release software, and it may contain bugs. If you discover a bug, please create a new topic here in the Vienna forum and report the bug to us. Some tips for writing good bug reports can be found at http://forums.cocoaforge.com/viewtopic.php?f=18&t=9210. For safety, we recommend that you back up your files before running the beta version. Vienna's files are located at "~/Library/Preferences/uk.co.opencommunity.vienna2.plist" and "~/Library/Application Support/Vienna".</p>
 <h2>Database upgrade</h2></p>
 <p>On the first launch, Vienna 2.4 will upgrade your database. Depending on the size of your database, the upgrade may take some time, so please be patient on first launch. Because of the database upgrade, we don't recommend that you switch back and forth between Vienna 2.4 and Vienna 2.3.</p>
 <h2>Enhancements</h2></p>
 <ul>
-<li>Gesture Support:</li>
-<ul>
-<li>Enable navigating the built-in browser's back/forward-list via  left/right three-finger swipes.</li></p>
-<li>Enable navigating feeds via left/right three-finger swipes: Left for "Go Back" and right for "View Next Unread".</li>
-<li>Enable scrolling to the top/bottom of web pages and the article list via upwards/downwards three-finger swipes.</li></ul>
 <li> The XML source for feeds is now saved, and there is a new menu item "Show XML Source" to display it.</li>
 <li>Add support for Internationalized Domain Names (IDN) in the built-in web browser.</li>
 <li>Many user interface improvements.</li>
-<li>Enable searching for text in the web browser. (Note that this required using the command-shift-g keyboard shortcut for "Find Previous", replacing the old shortcut for New Group Folder.)</li>
+<li>Enable searching for text in the web browser. (Note that this required using the command-shift-g keyboard shortcut for</li>
+<li>Find Previous, replacing the old shortcut for New Group Folder.)</li>
 <li>Enable printing of web pages.</li>
 <li>Double the number of simultaneous feed downloads during refreshing from 10 to 20.</li>
 <li>Minor speed improvements for some operations.</li>
@@ -62,7 +60,5 @@ tags: []
 <li>Numerous fixes to localization of help pages and other strings in German, French, and other languages.</li>
 <li>Eliminate deprecated method warnings on Snow Leopard.</li>
 <li>Turn off animation of tab resizing. It was slow, superfluous and sometimes caused drawing errors in the tab bar background.</li>
-<li>Update SQLite to version 3.6.18</li>
-<li>Change "currentSelection" to "currentTextSelection" in Viennas Applescript terminology.</li>
-<li>Fix the filter field article selection problem reported <a href="http://forums.cocoaforge.com/viewtopic.php?f=18&t=21665">here</a>. </li>
-<p></ul></p>
+<li>Update SQLite to version 3.6.18</li><br />
+</ul></p>
