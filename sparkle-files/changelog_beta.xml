@@ -7,12 +7,12 @@
 		<language>en-us</language>
 		<copyright>Copyright 2010-2015, Steve Palmer and contributors</copyright>
 		<item>
-			<title>Vienna 3.3.0 Beta 1 :286d0eca:</title>
-			<pubDate>Sat, 10 Mar 2018 16:29:58 +0000</pubDate>
-			<link>https://dl.bintray.com/viennarss/vienna-rss/Vienna3.3.0_beta1.tgz</link>
+			<title>Vienna 3.3.0 RC 1 :c9cf6fe3:</title>
+			<pubDate>Sat, 24 Mar 2018 23:03:23 +0000</pubDate>
+			<link>https://dl.bintray.com/viennarss/vienna-rss/Vienna3.3.0_rc1.tgz</link>
 			<sparkle:minimumSystemVersion>10.9.0</sparkle:minimumSystemVersion>
-			<enclosure url="https://dl.bintray.com/viennarss/vienna-rss/Vienna3.3.0_beta1.tgz" sparkle:version="6692" sparkle:shortVersionString="3.3.0 Beta 1 :286d0eca:" length="10531411" sparkle:dsaSignature="MCwCFEMcTEcqD3HiqD+B9Iv7C6vCI4XzAhRMhaYdLBFOUYCXWTnJiBiV+rmJjQ==" type="application/octet-stream"/>
-			<sparkle:releaseNotesLink>https://viennarss.github.io/sparkle-files/noteson3.3.0_beta1.html</sparkle:releaseNotesLink>
+			<enclosure url="https://dl.bintray.com/viennarss/vienna-rss/Vienna3.3.0_rc1.tgz" sparkle:version="6801" sparkle:shortVersionString="3.3.0 RC 1 :c9cf6fe3:" length="10531826" sparkle:dsaSignature="MCwCFENdVCdUGfOAxTN+nYR4jXVypSWYAhRsSpq8q04p7AgP9TERHIBxSoGEzg==" type="application/octet-stream"/>
+			<sparkle:releaseNotesLink>https://viennarss.github.io/sparkle-files/noteson3.3.0_rc1.html</sparkle:releaseNotesLink>
 		</item>
 	</channel>
 </rss>
