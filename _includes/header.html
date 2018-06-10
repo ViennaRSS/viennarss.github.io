@@ -27,13 +27,26 @@
 
 						<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
-						<ul>
+						<ul class="current sub-menu">
 						 <!--  <li class="current"><a href="{{ site.baseurl }}/"><div>{{ page.title }}</div></a></li> -->
-						  <li><a href="{{ page.url | prepend: site.baseurl }}"><div>About</div></a></li>
-						  <li class="mega-menu"><a href="faq"><div>Development</div></a></li>
-						  <li class="mega-menu"><a href="#"><div>Blog</div></a></li>
-						  <li class="mega-menu"><a href="#"><div>Extras</div></a></li>
-						  <li><a href="shop.html"><div>Forum</div></a></li>
+						  <li><a href="about">About</a>
+							<ul style="display: none">
+								<li><a href="faq">FAQ</a></li>
+							</ul>
+						</li>
+						  <li><a href="development">Development</a>
+							<ul style="display: none">
+								<li><a href="https://github.com/ViennaRSS/vienna-rss">Browse Source</a></li>
+								<li><a href="development/creating-plugins-for-vienna-2-5">Creating Plugins</a></li>
+							</ul>
+						  </li>
+						  <li><a href="blog"><div>Blog</div></a></li>
+						  <li><a href="extras"><div>Extras</div></a>
+							<ul style="display: none">
+								<li><a href="extras/creating-custom-styles">Custom Styles</a></li>
+							</ul>
+						</li>
+						  <li><a href="https://forums.cocoaforge.com/viewforum.php?f=18"><div>Forum</div></a></li>
 						</ul>
 
 					</div>
