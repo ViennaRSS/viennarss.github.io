@@ -1,39 +1,24 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 // Initialize
-@import "../_sass/variables.scss";
-@import "../_sass/mixins.scss";
-
-
-// Core CSS
-@import "../_sass/typography.scss";
-@import "../_sass/helpers.scss";
-@import "../_sass/layouts.scss";
-
-
-// Content Blocks
-@import "../_sass/topbar.scss";
-@import "../_sass/header.scss";
-@import "../_sass/sliders.scss";
-@import "../_sass/pagetitle.scss";
-@import "../_sass/content.scss";
-@import "../_sass/portfolio.scss";
-@import "../_sass/blog.scss";
-@import "../_sass/shop.scss";
-@import "../_sass/events.scss";
-
-// Shortcodes
-@import "../_sass/shortcodes.scss";
-
-
-// Footer
-@import "../_sass/footer.scss";
-
-
-// Widgets
-@import "../_sass/widgets.scss";
-
-
+@import '../_sass/variables.scss';
+@import '../_sass/mixins.scss'; // Core CSS
+@import '../_sass/typography.scss';
+@import '../_sass/helpers.scss';
+@import '../_sass/layouts.scss'; // Content Blocks
+@import '../_sass/topbar.scss';
+@import '../_sass/header.scss';
+@import '../_sass/sliders.scss';
+@import '../_sass/pagetitle.scss';
+@import '../_sass/content.scss';
+@import '../_sass/portfolio.scss';
+@import '../_sass/blog.scss';
+@import '../_sass/shop.scss';
+@import '../_sass/events.scss'; // Shortcodes
+@import '../_sass/shortcodes.scss'; // Footer
+@import '../_sass/footer.scss'; // Widgets
+@import '../_sass/widgets.scss';
 // Extras
-@import "../_sass/extras.scss";
+@import '../_sass/extras.scss';
