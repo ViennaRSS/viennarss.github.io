@@ -1,27 +1,59 @@
 <header class="site-header">
 
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
-  </div>
-
 </header>
+
+
+
+ <header id="header" class="sticky-style-2">
+
+			<div class="container clearfix">
+
+				<!-- Logo
+				============================================= -->
+				<div id="logo" class="divcenter">
+					<a href="{{ site.baseurl }}/" class="standard-logo"><img class="divcenter" src="../images/vienna_logo.png" alt=""></a>
+
+				</div><!-- #logo end -->
+
+			</div>
+
+			<div id="header-wrap">
+
+				<!-- Primary Navigation
+				============================================= -->
+				<nav id="primary-menu" class="style-2 center">
+
+					<div class="container clearfix">
+
+						<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+						<ul class="current sub-menu">
+						 <!--  <li class="current"><a href="{{ site.baseurl }}/"><div>{{ page.title }}</div></a></li> -->
+						  <li><a href="about">About</a>
+							<ul style="display: none">
+								<li><a href="faq">FAQ</a></li>
+							</ul>
+						</li>
+						  <li><a href="development">Development</a>
+							<ul style="display: none">
+								<li><a href="https://github.com/ViennaRSS/vienna-rss">Browse Source</a></li>
+								<li><a href="development/creating-plugins-for-vienna-2-5">Creating Plugins</a></li>
+							</ul>
+							<li><a href="https://github.com/ViennaRSS/vienna-rss/archive/v/3.3.0.zip">Download</a></li>
+						  </li>
+						  <li><a href="blog"><div>Blog</div></a></li>
+						  <li><a href="extras"><div>Extras</div></a>
+							<ul style="display: none">
+								<li><a href="extras/creating-custom-styles">Custom Styles</a></li>
+							</ul>
+						</li>
+						  <li><a href="https://forums.cocoaforge.com/viewforum.php?f=18"><div>Forum</div></a></li>
+						  <li><a href="support"><div>Get Support</div></a></li>
+						</ul>
+					</div>
+
+				</nav><!-- #primary-menu end -->
+
+			</div>
+
+		</header><!-- #header end -->

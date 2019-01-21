@@ -1,23 +1,18 @@
 ---
 layout: default
 ---
+<section id="slider" class="boxed-slider">
+  <div class="container clearfix">
 
-<div class="home">
+<div id="oc-slider" class="owl-carousel carousel-widget" data-items="1" data-loop="true" data-nav="true" data-autoplay="5000" data-animate-in="fadeIn" data-animate-out="fadeOut" data-speed="800">
 
-  <h1 class="page-heading">Posts</h1>
+      <a href="#"><img src="/images/screenshot1.png" alt="Slider"></a>
+      <a href="#"><img src="/images/screenshot2.png" alt="Slider"></a>
+      <a href="#"><img src="/images/screenshot3.png" alt="Slider"></a>
+  </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</section>
 
-</div>
