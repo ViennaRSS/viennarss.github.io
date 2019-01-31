@@ -7,88 +7,44 @@ author:
 date: '2010-01-08 21:25:14 +1100'
 categories:
 ---
+# Contributing to Vienna
 
-The source code for Vienna lives at [GitHub](https://github.com/viennarss). This section is intended to help you get started with downloading and building Vienna on your own machine. See the [Vienna GitHub Page](https://github.com/viennarss/vienna-rss) to quickly browse the Vienna sources. The rest of this page explains how to download the source to your machine.
+## Debugging
 
-<script src="https://www.openhub.net/p/vienna-rss/widgets/project_factoids?format=js"></script>
+dSYM files containing the debug symbols can be found at [bintray](https://bintray.com/viennarss/vienna-rss/vienna-rss/).
 
-## Getting the Source
-If you are already familiar with open source development for Mac OS X, <a href="https://github.com/viennarss/vienna-rss">browse the source</a> or just <a href="http://help.github.com/fork-a-repo/">fork</a> our <a href="https://github.com/viennarss/vienna-rss">Git repository</a> and get started.
+## Writing code
 
-## What You Need
-To build Vienna, you will need:
+The current version of Vienna requires Xcode 10 and the macOS 10.14 SDK. Most of Vienna is made with Objective-C, but some newer code is being created in Swift 4. We welcome both Objective-C and Swift contributions.
 
-* macOS 10.12 (Sierra) and [Xcode 8.1](https://developer.apple.com/xcode/).
-* An [up-to-date Git client](http://git-scm.com/) and basic knowledge about using Git. GitHub provides a free GUI client that works quite well: [GitHub Desktop](https://desktop.github.com/)
+You should have a basic knowledge of Git and read this [suggested workflow](https://github.com/ViennaRSS/vienna-rss/wiki/Good-manners-with-Git).
 
-To make modifications to the Vienna source code, you will need a working knowledge of Objective-C and the Cocoa framework. See the [Apple Developer's Web Site](https://developer.apple.com) for more information on Xcode, Objective-C and Cocoa.
+As a starting point, search for any [issues with the *help-wanted* label](https://github.com/ViennaRSS/vienna-rss/labels/help%20wanted).
 
-##	Getting Started
-The Vienna source code has to be be *checked out* (or *cloned*, in Git terms) to a folder whose path does **not** contain spaces. This is a limitation of the project file that will likely be fixed in the future but, for now, make sure the full path to the Vienna source folder does not have any spaces in it.
+Please let us know what you are working on by posting an issue on Vienna's github and assigning it to yourself.
 
-The trunk contains the current development version and all changes should be contributed to it.
+## Code style guidelines
 
-GitHub makes contributing changes easy:
+Try to respect the code style of the code you modify. 
 
-* Ideally, you should create an account at GitHub.
-* Then, simply [fork](https://help.github.com/articles/fork-a-repo/) our main repository: [vienna-rss](https://github.com/viennarss/vienna-rss)
-* Clone the repository to your local development machine.
-* Get coding, and send us a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) from your GitHub repository when your patch is ready.
+For new Objective-C code or significant refactoring, it is advised to adopt the [Spotify Objective-C Coding Style](https://github.com/spotify/ios-style).
 
-## Contributing Changes
-We welcome improvements and bug fixes to the Vienna source code. While you are free as per the terms of the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html) to reuse parts of the Vienna code in your own project, please consider contributing any improvements in Vienna itself back to us so we can review and add to the main source tree.
+For Swift code, please try to follow the [GitHub Swift Style Guide](https://github.com/github/swift-style-guide).
 
-If you are looking for ideas to work on, please see the [GitHub issues page](https://github.com/ViennaRSS/vienna-rss/issues) for bugs that need fixing or the file TODO in Vienna's source code folder for features that have been requested. Please let us know what you are working on by posting a note in the [Vienna Development Forum](http://forums.cocoaforge.com/viewforum.php?f=18). Feel free as well to post any questions or comments you may have about Vienna development. We're happy to help, and we encourage developers to join the Vienna project.
+## Commit messages
 
-## Documentation
-Vienna's source-code is very well documented. Read the (many, many...) comments and use the debugger to work out which functions do what. If the code becomes large enough then we might write a high level architecture overview but right now the source code is documentation enough. If you are contributing changes, please ensure you follow the coding style used by the rest of the code. That means - function header style, nesting, spacing between keywords, etc. Consistency is important here.
+1. Separate subject line from body with a blank line.
 
-## Development-related Discussion
-Vienna development is discussed in the [Developer Forum](https://forums.cocoaforge.com/viewforum.php?f=18) on CocoaForge or on GitHub.
+2. Use present-tense, imperative-style for the subject line (as if you are giving orders to the codebase to change its behavior). This is shorter and consistent with commit texts automatically generated by Git.
 
-## Coding Guidelines
-We don't accept patches ([pull requests](https://help.github.com/articles/creating-a-pull-request-from-a-fork/), in Git lingo) unconditionally. While the license for Vienna permits you to make your own changes and redistribute them as you see fit, we have our own quality bar for changes that are submitted to the official build so please take a moment to read the below before you start making changes.
+3. Try to limit the subject line to 50 characters : consistent commit histories are easier to read. Avoid at all costs subject lines with more than 72 characters : Github will truncate them with an ellipsis.
 
-* Source code style is crucial. For Objective-C code, please try to follow the [Spotify Objective-C Coding Style](https://github.com/spotify/ios-style) and for Swift code, please try to follow the [GitHub Swift Style Guide](https://github.com/github/swift-style-guide).
-* If you want to pick something from the wish-list to implement then let us know first so we can mark it as "in progress" and avoid duplicate effort.
-* UI changes have a high bar and we recommend you discuss your idea with us first before going ahead and implementing.
-* Non-UI changes don't have such a high bar so if you have a patch or a nifty idea, feel free to code it up and send us a pull request.
-* We review all pull requests before we accept them. For small bugs we'll probably make any fixes ourselves. Larger problems get bounced back for correction.
+4. Capitalize the subject line.
 
-## Localisation
-We welcome volunteers who are willing to contribute by localizing Vienna into other languages. The below table shows the current languages into which Vienna is already localized:
+5. Do not end the subject line with a period.
 
-* English
-* Swedish
-* French
-* Italian
-* German
-* Dutch
-* Traditional Chinese
-* Spanish
-* Japanese
-* Korean
-* Brazilian Portuguese
-* Simplified Chinese
-* Danish
-* Czech
-* Euskara (Basque)
-* Russian
-* Ukrainian
+6. Use the body to explain _what_ and _why_ (and not on the _how_). Focus on the reasons which required the change - the way things worked before the change (and what was wrong with that), the way they work now, and why you decided to solve it the way you did.  
+You may reference issues/discussions raised at Github or Cocoaforge, but avoid relying heavily on them: a reviewer should be able to make an analysis based solely on code and commit messages.
 
-Additional languages planned for which volunteers are needed:
-
-* Arabic
-* Polish
-* Portuguese
-* Hebrew
-
-If you wish to volunteer to localise Vienna for any of the above languages, please [create a new issue on GitHub](https://github.com/ViennaRSS/vienna-rss/issues/new), or contact us at the [Developer Forum](https://forums.cocoaforge.com/viewforum.php?f=18).
-
-## Tools
-To create localised versions of Vienna, you will need the same tools that are required to build Vienna. If you would prefer to work outside of Subversion, then an alternative approach is to copy the English.lproj file from the most recent build of Vienna and work on that.
-
-Apple provides [tools on its web site](https://developer.apple.com/internationalization/) that may help you with your efforts. Note that we don't mandate the use of any specific tools. It is up to you to use whatever you find works best for you.
-
-You will need a git client as mentioned above to download the source code and obtain the latest UI changes in the English.lproj folder for localisation.
+7. It is recommended to hard wrap the body text at 72 characters (except for quoted material that is non-prose, like compiler error messages).
 
