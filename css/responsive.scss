@@ -2272,7 +2272,7 @@ only screen and (                min-resolution: 2dppx) {
 	#logo {
 		a {
 			&.standard-logo {
-				display: none;
+				display: block;
 			}
 			&.retina-logo {
 				display: block;
@@ -2355,7 +2355,7 @@ only screen and (                min-resolution: 2dppx) {
 		#logo {
 			a {
 				&.standard-logo {
-					display: none;
+					display: block;
 				}
 				&.retina-logo {
 					display: inline-block;
