@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+
+<style type="text/css">
+*{margin:0;padding:0;}
+body {
+	font:13.34px helvetica,arial,freesans,clean,sans-serif;
+	color:black;
+	line-height:1.4em;
+	background-color: #F8F8F8;
+	padding: 0.7em;
+}
+p {
+	margin:1em 0;
+	line-height:1.5em;
+}
+table {
+	font-size:inherit;
+	font:100%;
+	margin:1em;
+}
+table th{border-bottom:1px solid #bbb;padding:.2em 1em;}
+table td{border-bottom:1px solid #ddd;padding:.2em 1em;}
+input[type=text],input[type=password],input[type=image],textarea{font:99% helvetica,arial,freesans,sans-serif;}
+select,option{padding:0 .25em;}
+optgroup{margin-top:.5em;}
+pre,code{font:12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;}
+pre {
+	margin:1em 0;
+	font-size:12px;
+	background-color:#eee;
+	border:1px solid #ddd;
+	padding:5px;
+	line-height:1.5em;
+	color:#444;
+	overflow:auto;
+	-webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;border-radius:3px;
+}
+pre code {
+	padding:0;
+	font-size:12px;
+	background-color:#eee;
+	border:none;
+}
+code {
+	font-size:12px;
+	background-color:#f8f8ff;
+	color:#444;
+	padding:0 .2em;
+	border:1px solid #dedede;
+}
+img{border:0;max-width:100%;}
+abbr{border-bottom:none;}
+a{color:#4183c4;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a code,a:link code,a:visited code{color:#4183c4;}
+h2,h3{margin:1em 0;}
+h1,h2,h3,h4,h5,h6{border:0;}
+h1{font-size:170%;border-top:4px solid #aaa;padding-top:.5em;margin-top:1.5em;}
+h1:first-child{margin-top:0;padding-top:.25em;border-top:none;}
+h2{font-size:150%;margin-top:1.5em;border-top:4px solid #e0e0e0;padding-top:.5em;}
+h3{margin-top:1em;}
+hr{border:1px solid #ddd;}
+ul{margin:1em 0 1em 2em;}
+ol{margin:1em 0 1em 2em;}
+ul li,ol li{margin-top:.5em;margin-bottom:.5em;}
+ul ul,ul ol,ol ol,ol ul{margin-top:0;margin-bottom:0;}
+blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
+dt{font-weight:bold;margin-left:1em;}
+dd{margin-left:2em;margin-bottom:1em;}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">Version Notes</h1>
+
+<h3 id="toc_1">Information:</h3>
+
+<ul>
+<li>3.6.x versions of Vienna can be used on OS X 10.11 (El Capitan) or later only !</li>
+<li>The version of the database remains fully compatible with all Vienna 3.x.x versions.</li>
+</ul>
+
+<h2 id="toc_2">3.6.0 Beta 1</h2>
+
+<ul>
+<li>Lift deployment target to macOS 10.11 and start modernizing code</li>
+<li>Replace MASPreferences with Storyboard implementation (Preferences window)</li>
+</ul>
+
+<h2 id="toc_3">3.5.6</h2>
+
+<ul>
+<li>Vienna is now notarized (needed by macOS Catalina and later)</li>
+<li><p>Much improved OpenReader support :</p>
+
+<ul>
+<li>sensibly decrease the number of network requests:
+
+<ul>
+<li>use single &#39;mark-all-as-read&#39; requests for marking folders read</li>
+<li>avoid requesting feeds which haven&#39;t been updated</li>
+</ul></li>
+<li>work around a blockade put on by Inoreader</li>
+<li><p>add ‘hidden’ preference to use specific AppId/AppKey with Inoreader:</p>
+
+<blockquote>
+<p>Each user of Inoreader user is able to define (and monitor) a personal
+set of AppId / AppKey values through Inoreader preferences located at
+https://www.inoreader.com/all_articles#preferences-developer</p>
+
+<p>To have Vienna use these values instead of the default one, you have to
+type in Terminal two commands similar to the following:</p>
+
+<blockquote>
+<p><code>defaults write uk.co.opencommunity.vienna2 SyncingAppId 9876543210</code>
+<code>defaults write uk.co.opencommunity.vienna2 SyncingAppKey JrS2smGyidtsxBOytDN1OWsSPcGURKWR</code></p>
+</blockquote>
+
+<p>To get back to the default values:</p>
+
+<blockquote>
+<p><code>defaults delete uk.co.opencommunity.vienna2 SyncingAppId</code>
+<code>defaults delete uk.co.opencommunity.vienna2 SyncingAppKey</code></p>
+</blockquote>
+</blockquote></li>
+<li><p>adapt to feed identifiers used by TheOldReader and FreshRSS (numerical Ids instead of URLs)</p></li>
+<li><p>improve feed infos synchronisation between Vienna and servers (feed name, homepage, folder/label)</p></li>
+<li><p>fix a problem with credential input in sync preferences panel</p></li>
+<li><p>improve first authentication on OpenReader server</p></li>
+</ul></li>
+<li><p>Fix feed subscription button in browser view</p></li>
+<li><p>Fix some problems with enabling/disabling of menu items and toolbar items</p></li>
+<li><p>Trim author names in database</p></li>
+<li><p>Update address of ArsTechnica feed</p></li>
+<li><p>Update components (FMDB 2.7.7 through Swift Package Manager insted of Carthage, TRVSURLSessionOperation)</p></li>
+<li><p>Modernize code, localization &amp; building tools</p></li>
+</ul>
+
+
+
+
+</body>
+
+</html>
