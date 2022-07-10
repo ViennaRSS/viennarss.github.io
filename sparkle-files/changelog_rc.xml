@@ -7,14 +7,14 @@
 		<language>en-us</language>
 		<copyright>Copyright 2010-2020, Steve Palmer and contributors</copyright>
 		<item>
-			<title>Vienna 3.7.3 :f093d5f7:</title>
-			<pubDate>Sun, 15 May 2022 15:19:20 +0000</pubDate>
-			<link>https://github.com/ViennaRSS/vienna-rss/releases/tag/v%2F3.7.3</link>
-			<sparkle:version>7560</sparkle:version>
-			<sparkle:shortVersionString>3.7.3 :f093d5f7:</sparkle:shortVersionString>
-			<sparkle:minimumSystemVersion>10.11.0</sparkle:minimumSystemVersion>
-			<enclosure url="https://downloads.sourceforge.net/project/vienna-rss/v_3.7.3/Vienna3.7.3.tar.gz" sparkle:edSignature="rZmgZ6c9MUPW1gxEyoKATeMXV2QAd234xjBkZa7/YtYhAdqfr3chLFfAlhhuE/NLn8Dz4L1VqS2cJqQSxDFwBg==" length="12258705" sparkle:dsaSignature="MC0CFQDxPYpN76VhNPeJtS5hQxEpWBl21gIUS3HgDkDRzc6F9AQ3X7oitx/L9pk=" type="application/octet-stream" />
-			<sparkle:releaseNotesLink>https://www.vienna-rss.com/sparkle-files/noteson3.7.3.html</sparkle:releaseNotesLink>
+			<title>Vienna 3.8.0 :47f3bd9f:</title>
+			<pubDate>Sat, 09 Jul 2022 18:54:32 +0000</pubDate>
+			<link>https://github.com/ViennaRSS/vienna-rss/releases/tag/v%2F3.8.0</link>
+			<sparkle:version>7816</sparkle:version>
+			<sparkle:shortVersionString>3.8.0 :47f3bd9f:</sparkle:shortVersionString>
+			<sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
+			<enclosure url="https://downloads.sourceforge.net/project/vienna-rss/v_3.8.0/Vienna3.8.0.tar.gz" sparkle:edSignature="qiehAR7VYab4DbohfZT4zblHNzNFypxyFg8VMObupSog6nrtszV7zDjR3ZgbCtEpl+e4pCI04s6qPRhsRIRADw==" length="12855925" sparkle:dsaSignature="MCwCFH+YGSzVNBrrWsEGWe2siDFrr0OVAhQ/tcgtJzlgeE/i+lf1C8SsJD7uHw==" type="application/octet-stream" />
+			<sparkle:releaseNotesLink>https://www.vienna-rss.com/sparkle-files/noteson3.8.0.html</sparkle:releaseNotesLink>
 		</item>
 	</channel>
 </rss>
