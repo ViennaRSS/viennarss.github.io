@@ -7,14 +7,14 @@
 		<language>en-us</language>
 		<copyright>Copyright 2010-2020, Steve Palmer and contributors</copyright>
 		<item>
-			<title>Vienna 3.8.2 :010ade74:</title>
-			<pubDate>Dim, 28 aoû 2022 12:34:20 +0000</pubDate>
-			<link>https://github.com/ViennaRSS/vienna-rss/releases/tag/v%2F3.8.2</link>
-			<sparkle:version>7844</sparkle:version>
-			<sparkle:shortVersionString>3.8.2 :010ade74:</sparkle:shortVersionString>
+			<title>Vienna 3.8.3 :b4896048:</title>
+			<pubDate>Ven, 16 sep 2022 06:21:16 +0000</pubDate>
+			<link>https://github.com/ViennaRSS/vienna-rss/releases/tag/v%2F3.8.3</link>
+			<sparkle:version>7857</sparkle:version>
+			<sparkle:shortVersionString>3.8.3 :b4896048:</sparkle:shortVersionString>
 			<sparkle:minimumSystemVersion>10.12.0</sparkle:minimumSystemVersion>
-			<enclosure url="https://downloads.sourceforge.net/project/vienna-rss/v_3.8.2/Vienna3.8.2.tar.gz" sparkle:edSignature="kzygRfhY0dFUcekNQwfK+IiFKAGDK36WH1mBCR3nf/hicG97dayZdAqqIej3gOD4Wc7kyqYMXR0owZDrqJ/ABQ==" length="12860978" sparkle:dsaSignature="MC0CFQCtnybb8XxZurYGdPGTMU5vSzFfAQIUVFNUtRh9g0N2+YjKemNMTRRtgN4=" type="application/octet-stream" />
-			<sparkle:releaseNotesLink>https://www.vienna-rss.com/sparkle-files/noteson3.8.2.html</sparkle:releaseNotesLink>
+			<enclosure url="https://downloads.sourceforge.net/project/vienna-rss/v_3.8.3/Vienna3.8.3.tgz" sparkle:edSignature="0BTZ2AQ6nXtmWvkPl07C2gd2YvByx/yF9GIoz6BbzDHGvQGyMlLLXLXyOvSS8vaS/X7sz0/Vv0rb00MLhSX4Dg==" length="12861416" sparkle:dsaSignature="MC0CFQCBvvmE5JjLz/F2loi32QW49BOgwgIUVQQ8YPfPO40RLWWUbbcui5LaVUs=" type="application/octet-stream" />
+			<sparkle:releaseNotesLink>https://www.vienna-rss.com/sparkle-files/noteson3.8.3.html</sparkle:releaseNotesLink>
 		</item>
 	</channel>
 </rss>
