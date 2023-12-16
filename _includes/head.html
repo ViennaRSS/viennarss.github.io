@@ -23,5 +23,5 @@
   <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" />
 
   <link rel="stylesheet" href="/css/responsive.css" type="text/css" />
-  <title>ViennaRSS &#8211; The Free and Open Source RSS/Atom Reader for macOS</title>
+  <title>{% if page.title %}{{ page.title | escape }} &ndash; {{ site.title | escape }}{% else %}{{ site.title | escape }} &ndash; {{ site.description | escape }}{% endif %}</title>
 </head>
