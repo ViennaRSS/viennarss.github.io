@@ -23,9 +23,9 @@ $margin-big:                    80px;
 
 //-------------------- Font Families --------------------//
 
-$body-font:                     'Lato', sans-serif;
-$heading-font:                  'Raleway', sans-serif;
-$secondary-font:                'Crete Round', serif;
+$body-font:                     ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+$heading-font:                  $body-font;
+$secondary-font:                ui-serif, Georgia, serif;
 
 
 //-------------------- Font Sizes --------------------//
