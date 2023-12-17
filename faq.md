@@ -39,7 +39,7 @@ See the [Development page](http://www.vienna-rss.com/?page_id=16) for instructio
 	<a name="I_found_a_problem_with_Vienna._How_do_I_report_it" id="I_found_a_problem_with_Vienna._How_do_I_report_it">I found a problem with Vienna. How do I report it?</a>
 </h2>
 
-Create a new issue over at our [GitHub](https://github.com/ViennaRSS/vienna-rss/issues) site, or post a message over in the [forum](http://www.cocoaforge.com/viewforum.php?f=18) and somebody will investigate. Provide as much information about the problem as you can including: the build of Vienna (obtained from the About Vienna panel), steps to reproduce and what you expected to happen. If the problem occurs with a specific news feed, always include the URL of the feed. It is easier to fix problems that we can reproduce.
+Create a new issue or start a discussion over on our [GitHub page]({{ site.app_github_url }}) and somebody will investigate or respond. Provide as much information about the problem as you can including: the build of Vienna (obtained from the About Vienna panel), steps to reproduce and what you expected to happen. If the problem occurs with a specific news feed, always include the URL of the feed. It is easier to fix problems that we can reproduce.
 
 Make sure you're always running the most recent build of Vienna. The Check for Updates command will report if there's a newer build available than the one you have.
 
@@ -57,13 +57,13 @@ See the [Custom Styles page](http://www.vienna-rss.com/?page_id=65) for instruct
 
 Vienna's scripts are written using AppleScript. See the [Apple resource page](http://www.apple.com/macosx/features/applescript/resources.html) for more details. Also take a look at the Vienna scripting dictionary and examples of what you can accomplish.
 
-To submit your own script, create a post about it in the [forum](http://www.cocoaforge.com/viewforum.php?f=18) and after it has been reviewed, it will be made available on the Downloads page.
+To submit your own script, create an issue or a pull request on our [GitHub page]({{ site.site_github_url }}). After it has been reviewed and accepted, it will be made available on the Extras page.
 
 <h2>
 	<a name="How_do_I_create_my_own_plugins" id="How_do_I_create_my_own_plugins">How do I create my own plugins?</a>
 </h2>
 
-You can create plugins as easily as editing a single plugin file and no scripting needed. See the [Creating Plugins](http://www.vienna-rss.com/?page_id=120) page for more details. You can also package and share your plugins with others on the forum.
+You can create plugins as easily as editing a single plugin file and no scripting needed. See the [Creating Plugins](http://www.vienna-rss.com/?page_id=120) page for more details. You can also package and share your plugins with others.
 
 <h2>
 	<a name="How_can_I_see_what_happened_when_my_subscriptions_are_refreshed" id="How_can_I_see_what_happened_when_my_subscriptions_are_refreshed">How can I see what happened when my subscriptions are refreshed?</a>
@@ -97,7 +97,7 @@ It means that Vienna got a feed back from the subscription that it couldn't inte
 2. The feed itself may contain malformed XML. Some subscriptions make a mistake in putting together the XML that makes up the feed and Vienna cannot interpret malformed XML. Use the Validate Feed command on the File menu to see if this is the case. Unfortunately you cannot do much about this in Vienna except wait for the feed itself to be corrected by the site.<br />
 3. The feed may be incomplete. If the refresh was interrupted then the XML data will be incomplete and will appear malformed in Vienna. A second refresh may correct this problem.
 
-If none of the above explain the problem, post a message on the support forum with the URL of the feed exhibiting the problem.
+If none of the above explain the problem, create a issue on the [GitHub page]({{ site.app_github_url }}/issues) with the URL of the feed exhibiting the problem.
 
 <h2>
 	<a name="Is_there_a_shortcut_key_for_going_to_the_next_article_marking_read_etc_" id="Is_there_a_shortcut_key_for_going_to_the_next_article_marking_read_etc_">Is there a shortcut key for going to the next article, marking read, etc?</a>
@@ -123,4 +123,4 @@ Auto-expire will NOT remove unread or flagged articles. It assumes that you have
 	<a name="How_do_I_request_an_enhancement_in_Vienna" id="How_do_I_request_an_enhancement_in_Vienna">How do I request an enhancement in Vienna?</a>
 </h2>
 
-Create a new issue over at our [GitHub](https://github.com/ViennaRSS/vienna-rss/issues) site, or post a message over at the [support forum](http://forums.cocoaforge.com/viewforum.php?f=18). All requested enhancements are logged in the TODO file that is included with the source code as a guidance for future developers.
+Start a discussion on our [GitHub Discussions]({{ site.app_github_url }}/discussions) page.

@@ -48,7 +48,7 @@ You can have additional files such as images, but these two files must be presen
 The parts in `$...$` are special placeholders, called **tags**, that Vienna will fill in when it displays the article. After you have created your style, restart Vienna and your new style should appear on the Styles submenu. Switch to it see your finished work.
 
 ### Available Tags
-The following is a complete list of the tags currently available to you. They are named to be self-explanatory. If you have an idea for a style that would need the application to expose additional information, please bring it up on the [Developer Forum](https://forums.cocoaforge.com/viewforum.php?f=18) or create a new issue on [GitHub](https://github.com/ViennaRSS/vienna-rss/issues).
+The following is a complete list of the tags currently available to you. They are named to be self-explanatory. If you have an idea for a style that would need the application to expose additional information, please bring it up on the [GitHub Discussions page]({{ site.app_github_url }}/discussions) or create a new issue on [GitHub]({{ site.app_github_url }}/discussions/issues).
 
 * `$ArticleLink$`
 * `$ArticleTitle$`

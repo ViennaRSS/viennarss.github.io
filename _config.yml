@@ -5,6 +5,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.vienna-rss.com" # the base hostname & protocol for your site
 twitter_username: ViennaRSS
 github_username:  ViennaRSS
+app_github_url: https://github.com/ViennaRSS/vienna-rss
+site_github_url: https://github.com/ViennaRSS/viennarss.github.io
+forum_url: https://forums.cocoaforge.com/viewforum.php?f=18
 
 # Build settings
 markdown: kramdown
