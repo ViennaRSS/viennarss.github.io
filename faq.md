@@ -33,7 +33,7 @@ categories:
 	<a name="Where_do_I_get_the_Vienna_source_code" id="Where_do_I_get_the_Vienna_source_code">Where do I get the Vienna source code?</a>
 </h2>
 
-See the [Development page](http://www.vienna-rss.com/?page_id=16) for instructions on getting the source code for Vienna. The source code is freely available if you're interested in learning how Vienna works, if you want to build your own copy of Vienna from scratch on your own machine or if you want to borrow portions for inclusion in your own project. The source is provided under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html).
+See the [Development page]({{ "/development/" | prepend: site.baseurl }}) for instructions on getting the source code for Vienna. The source code is freely available if you're interested in learning how Vienna works, if you want to build your own copy of Vienna from scratch on your own machine or if you want to borrow portions for inclusion in your own project. The source is provided under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html).
 
 <h2>
 	<a name="I_found_a_problem_with_Vienna._How_do_I_report_it" id="I_found_a_problem_with_Vienna._How_do_I_report_it">I found a problem with Vienna. How do I report it?</a>

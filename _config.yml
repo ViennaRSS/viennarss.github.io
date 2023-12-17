@@ -1,6 +1,6 @@
 # Site settings
 title: Vienna RSS
-description: The Free and Open Source RSS/Atom Reader for Mac OS X
+description: The Free and Open-Source RSS/Atom Reader for macOS
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.vienna-rss.com" # the base hostname & protocol for your site
 twitter_username: ViennaRSS
