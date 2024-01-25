@@ -44,7 +44,7 @@ For Swift code, please try to follow the [GitHub Swift Style Guide](https://gith
 5. Do not end the subject line with a period.
 
 6. Use the body to explain _what_ and _why_ (and not on the _how_). Focus on the reasons which required the change - the way things worked before the change (and what was wrong with that), the way they work now, and why you decided to solve it the way you did.  
-You may reference issues/discussions raised at Github or Cocoaforge, but avoid relying heavily on them: a reviewer should be able to make an analysis based solely on code and commit messages.
+You may reference issues/discussions raised at Github, but avoid relying heavily on them: a reviewer should be able to make an analysis based solely on code and commit messages.
 
 7. It is recommended to hard wrap the body text at 72 characters (except for quoted material that is non-prose, like compiler error messages).
 
