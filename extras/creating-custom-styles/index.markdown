@@ -55,6 +55,7 @@ The following is a complete list of the tags currently available to you. They ar
 * `$ArticleBody$`
 * `$ArticleAuthor$`
 * `$ArticleDate$`
+* `$ArticlePublicationDate$`
 * `$ArticleEnclosureLink$`
 * `$ArticleEnclosureFilename$`
 * `$FeedTitle$`
