@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
 	<channel>
 		<title>Vienna Changelog</title>
-		<link>http://www.vienna-rss.com/</link>
+		<link>https://www.vienna-rss.com/</link>
 		<description>Vienna Changelog</description>
 		<language>en-us</language>
 		<copyright>Copyright 2010-2020, Steve Palmer and contributors</copyright>
 		<item>
-			<title>Vienna 3.9.5 :7784c797:</title>
-			<pubDate>Mon, 09 Dec 2024 18:04:06 +0000</pubDate>
-			<link>https://github.com/ViennaRSS/vienna-rss/releases/tag/v%2F3.9.5</link>
-			<sparkle:version>8414</sparkle:version>
-			<sparkle:shortVersionString>3.9.5 :7784c797:</sparkle:shortVersionString>
+			<title>Vienna 3.10.0 Beta 1 :b4c2d7bc:</title>
+			<pubDate>Sun, 25 May 2025 13:34:11 +0000</pubDate>
+			<link>https://github.com/ViennaRSS/vienna-rss/releases/tag/v%2F3.10.0_beta1</link>
+			<sparkle:version>8533</sparkle:version>
+			<sparkle:shortVersionString>3.10.0 Beta 1 :b4c2d7bc:</sparkle:shortVersionString>
 			<sparkle:minimumSystemVersion>10.13.0</sparkle:minimumSystemVersion>
-			<enclosure url="https://downloads.sourceforge.net/project/vienna-rss/v_3.9.5/Vienna3.9.5.tgz" sparkle:edSignature="wavADy3JtoCUkGfDSeS0geccvE36Sgn4GIE3MaKfBWGzqCaPxY+9/miAnefGdddy0yhXlxuH7w+PeL+pjix5DQ==" length="9163832" type="application/octet-stream" />
-			<sparkle:releaseNotesLink>https://www.vienna-rss.com/sparkle-files/noteson3.9.5.html</sparkle:releaseNotesLink>
+			<enclosure url="https://downloads.sourceforge.net/project/vienna-rss/v_3.10.0_beta1/Vienna3.10.0_beta1.tgz" sparkle:edSignature="MTYz72aQDfuiHpdmN/Lm6C+rW86po29R9cU9shSi4BGbv1rx+xzbvR/IBF38gCYbpDyGTM85IleRhZyM7/nbCA==" length="9200761" type="application/octet-stream" />
+			<sparkle:releaseNotesLink>https://www.vienna-rss.com/sparkle-files/noteson3.10.0_beta1.html</sparkle:releaseNotesLink>
 		</item>
 		<item>
 			<title>Vienna 3.8.8 :de36b0c7:</title>
