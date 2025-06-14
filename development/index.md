@@ -11,7 +11,7 @@ categories:
 
 ## Debugging
 
-dSYM files containing the debug symbols can be found at [bintray](https://bintray.com/viennarss/vienna-rss/vienna-rss/).
+dSYM files containing the debug symbols can be found at [Github](https://github.com/ViennaRSS/vienna-rss/releases) under "Assets".
 
 ## Writing code
 
