@@ -32,7 +32,7 @@ See the [Creating Custom Styles](/development/creating-styles) page for instruct
 		<a href="userstyles/FeedLightAqua.viennastyle.zip"><b>FeedLight Aqua</b></a> The current default theme in Vienna, contributed by <a href="http://graphr.net/">Alex Hong</a>
 	</li>
 	<li>
-	   <a href="http://www.vienna-rss.com/userstyles/JustSimple.viennastyle.zip"><b>Just Simple</b></a>, contributed by <a href="https://www.danielhutnan.com">Daniel Hutnan</a>
+	   <a href="{{ '/extras/userstyles/JustSimple.viennastyle.zip' | prepend: site.baseurl }}"><b>Just Simple</b></a>, contributed by <a href="https://www.danielhutnan.com">Daniel Hutnan</a>
 	</li>
 	<li>
 		<a href="userstyles/GreyMonday.viennastyle.zip"><b>Grey Monday</b></a> Contributed by Mario Peischl
