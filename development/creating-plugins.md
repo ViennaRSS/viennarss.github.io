@@ -107,7 +107,7 @@ The actual configuration of the plugin happens in its "Info.plist". The followin
 <li><strong>Name</strong>: (mandatory) this is a short, internal, name that uniquely identifies the plugin. It is now displayed in the UI.</li>
 <li><strong>Type</strong>: (mandatory) this specifies the plugin type. Three values are accepted: <strong>Link</strong>,  <strong>Script</strong> and <strong>BlogEditor</strong>.</li>
 <li><strong>BundleIdentifier</strong>: Only used for BlogEditor plugins, this defines the identifier of the application that you want to be called.</li>
-<li><strong>URL</strong>: (mandatory for link-type plugins) this is the URL that is browed when the plugin button is clicked. Vienna substitutes the $...$ placeholders with actual values from the current article being viewed. See <a href="http://www.vienna-rss.com/?page_id=65">here</a> for a list of placeholders.</li>
+<li><strong>URL</strong>: (mandatory for link-type plugins) this is the URL that is browed when the plugin button is clicked. Vienna substitutes the $...$ placeholders with actual values from the current article being viewed. See <a href="{{ '/development/creating-styles' | prepend: site.baseurl }}">here</a> for a list of placeholders.</li>
 <li><strong>Script</strong>: (mandatory for script-type plugins) this is the name of the script file in the same folder as the Info.plist.</li>
 <li><strong>Default</strong>: if this is set to true then this plugin appears on the default toolbar.</li>
 <li><strong>FriendlyName</strong>: this is the short name of the plugin that appears as the plugin button text on the toolbar. It should be kept as short as possible. If omitted, the internal name is used instead.</li>

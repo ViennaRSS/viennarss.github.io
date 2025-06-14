@@ -20,7 +20,7 @@ categories:
 - News
 tags: []
 ---
-<p>The Vienna Development team is happy to announce the beta release of Vienna 2.5. This is a testing release that, among other things, adds extendability via a new <a href="http://www.vienna-rss.com/?page_id=120">plugin development API</a> and fixes a small number of bugs. To be more precise, the new plugins make it extremely simple to extend Vienna with sharing capabilities that leverage social networking sites like <a href="http://www.facebook.com">Facebook</a> and <a href="http://www.twitter.com/ViennaRSS">Twitter</a>. <center><a href="https://sourceforge.net/projects/vienna-rss/files/TestVersions/2.5.0.2500/Vienna2.5.0.2500-BETA.zip/download"><img alt="Vienna 2.5 supports user-creatable plugins" src="http://www.vienna-rss.com/img/plugins.png" title="Vienna 2.5 supports user-creatable plugins" width="327" height="77" /></a><br/><br />
+<p>The Vienna Development team is happy to announce the beta release of Vienna 2.5. This is a testing release that, among other things, adds extendability via a new <a href="{{ '/development/creating-plugins' | prepend: site.baseurl }}">plugin development API</a> and fixes a small number of bugs. To be more precise, the new plugins make it extremely simple to extend Vienna with sharing capabilities that leverage social networking sites like <a href="http://www.facebook.com">Facebook</a> and <a href="http://www.twitter.com/ViennaRSS">Twitter</a>. <center><a href="https://sourceforge.net/projects/vienna-rss/files/TestVersions/2.5.0.2500/Vienna2.5.0.2500-BETA.zip/download"><img alt="Vienna 2.5 supports user-creatable plugins" src="http://www.vienna-rss.com/img/plugins.png" title="Vienna 2.5 supports user-creatable plugins" width="327" height="77" /></a><br/><br />
 <h3>Click to download: <a href="https://sourceforge.net/projects/vienna-rss/files/TestVersions/2.5.0.2500/Vienna2.5.0.2500-BETA.zip/download"><strong>Vienna 2.5 BETA</strong></a></h3></center></p>
 <h3>Requirements</h3><br />
 Vienna 2.5 BETA <strong>requires Mac OS X 10.5</strong> Leopard or higher to run.</p>
@@ -28,7 +28,7 @@ Vienna 2.5 BETA <strong>requires Mac OS X 10.5</strong> Leopard or higher to run
 The Vienna 2.5 BETA version is pre-release software, and it may contain bugs. If you discover a bug, please create a new topic here in the Vienna forum and report the bug to us. Some tips for writing good bug reports can be found at <a href="https://forums.cocoaforge.com/viewtopic.php?f=18&t=9210">https://forums.cocoaforge.com/viewtopic.php?f=18&t=9210</a>. For safety, we recommend that you back up your files before running the beta version. Vienna's files are located at "~/Library/Preferences/uk.co.opencommunity.vienna2.plist" and "~/Library/Application Support/Vienna". When 2.5 goes out of beta, Vienna will automatically update to the release version.</p>
 <h3>New features</h3></p>
 <ul>
-<li>Add support for <strong>plugins</strong>. For details, see the <a href="http://www.vienna-rss.com/?page_id=120">Plugin Documentation</a>.
+<li>Add support for <strong>plugins</strong>. For details, see the <a href="{{ '/development/creating-plugins' | prepend: site.baseurl }}">Plugin Documentation</a>.
 <li>Add a facility for automatic URL shortening via bit.ly that can be used by all plugins.
 <li>Add <strong>"Share with Twitter"</strong> plugin and toolbar button.
 <li>Add <strong>"Share with Facebook"</strong> plugin and toolbar button.
