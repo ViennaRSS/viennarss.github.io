@@ -13,7 +13,7 @@ categories:
 * <a href="#I_found_a_problem_with_Vienna._How_do_I_report_it">I found a problem with Vienna. How do I report it?</a>
 * <a href="#How_do_I_create_my_own_styles">How do I create my own styles?</a>
 * <a href="#How_do_I_create_my_own_scripts">How do I create my own scripts?</a>
-* <a href="#How_do_I_create_my_own_plugins">How do I create my own plugins?</a>
+* <a href="#How_do_I_create_my_own_plugins">How do I create my own plug-ins?</a>
 * <a href="#How_can_I_see_what_happened_when_my_subscriptions_are_refreshed">How can I see what happened when my subscriptions are refreshed?</a>
 * <a href="#How_do_I_move_my_Vienna_database_to_another_folder">How do I move my Vienna database to another folder?</a>
 * <a href="#One_of_my_subscriptions_reports_Error_parsing_XML_data_in_feed._What_does_this_mean">One of my subscriptions reports "Error parsing XML data in feed". What does this mean?</a>
@@ -60,10 +60,10 @@ Vienna's scripts are written using AppleScript. See [Mac Scripting Essentials](h
 To submit your own script, create an issue or a pull request on our [GitHub page]({{ site.site_github_url }}). After it has been reviewed and accepted, it will be made available on the Extras page.
 
 <h2>
-	<a name="How_do_I_create_my_own_plugins" id="How_do_I_create_my_own_plugins">How do I create my own plugins?</a>
+	<a name="How_do_I_create_my_own_plugins" id="How_do_I_create_my_own_plugins">How do I create my own plug-ins?</a>
 </h2>
 
-You can create plugins as easily as editing a single plugin file and no scripting needed. See the [Creating Plugins]({{ "/development/creating-plugins" | prepend: site.baseurl }}) page for more details. You can also package and share your plugins with others.
+You can create plug-ins as easily as editing a single plug-in file and no scripting needed. See the [Creating Plug-ins]({{ "/development/creating-plugins" | prepend: site.baseurl }}) page for more details. You can also package and share your plug-ins with others.
 
 <h2>
 	<a name="How_can_I_see_what_happened_when_my_subscriptions_are_refreshed" id="How_can_I_see_what_happened_when_my_subscriptions_are_refreshed">How can I see what happened when my subscriptions are refreshed?</a>

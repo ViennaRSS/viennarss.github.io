@@ -2,7 +2,7 @@
 layout: page
 status: publish
 published: true
-title: Creating Plugins
+title: Creating Plug-ins
 author:
   display_name: Steve Palmer
   login: Steve Palmer
@@ -45,7 +45,7 @@ redirect_from:
 <p>Starting with v2.5 and later, Vienna supports plugins which are installed on the toolbar and can run defined actions. These plugins are XML-based and can be created by editing a simple <a href="http://developer.apple.com/mac/library/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html">.plist-file</a> without any knowledge of Cocoa programming, in as little as 15 minutes.  This section describes how to create your own plugins, which will look and work exactly like the built-in ones:<br />
 <center><img alt="Vienna 2.5 supports user-creatable plugins" src="http://www.vienna-rss.com/img/plugins.png" title="Vienna 2.5 supports user-creatable plugins" width="327" height="77" /></center></p>
 <p><br><br />
-<h2>Creating the Plugin Bundle</h2><br />
+<h2>Creating the Plug-in Bundle</h2><br />
 Vienna plugins are distributed in the form of folders with the extension "<strong>.viennaplugin</strong>", which OS X automatically treats as bundles. Simply create a new folder, named like your new plugin. Then edit its name and append ".viennaplugin". This registers the folder as a Vienna plugin folder so that it can be double-clicked or dragged-and-dropped on the Vienna application icon to automatically install it. After this step, you can view the folder's contents via control/right-clicking and choosing "Show Package Contents" from the menu.</p>
 <h2>Adding the Necessary Files</h2><br />
 There are three types of plugins supported as of the time of writing: </p>
@@ -69,7 +69,7 @@ Each type requires: </p>
 <p>Script plugins aditionally require:</p>
 <ul>
 <li><strong>The <a href="http://devworld.apple.com/applescript/">AppleScript</a> file</strong> which, for example, gets information out of Vienna and sends it to an other application.</li></ul></p>
-<h2>Configuring your Plugin</h2><br />
+<h2>Configuring your Plug-in</h2><br />
 The actual configuration of the plugin happens in its "Info.plist". The following example completely describes Vienna's built-in Facebook plugin:
 
 <pre><code>
