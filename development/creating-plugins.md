@@ -42,7 +42,7 @@ comments:
 redirect_from:
   - /development/creating-plugins-for-vienna-2-5
 ---
-<p>Starting with v2.5 and later, Vienna supports plugins which are installed on the toolbar and can run defined actions. These plugins are XML-based and can be created by editing a simple <a href="http://developer.apple.com/mac/library/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html">.plist-file</a> without any knowledge of Cocoa programming, in as little as 15 minutes.  This section describes how to create your own plugins, which will look and work exactly like the built-in ones:<br />
+<p>Starting with v2.5 and later, Vienna supports plugins which are installed on the toolbar and can run defined actions. These plugins are XML-based and can be created by editing a simple <a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html">.plist-file</a> without any knowledge of Cocoa programming, in as little as 15 minutes.  This section describes how to create your own plugins, which will look and work exactly like the built-in ones:<br />
 <center><img alt="Vienna 2.5 supports user-creatable plugins" src="http://www.vienna-rss.com/img/plugins.png" title="Vienna 2.5 supports user-creatable plugins" width="327" height="77" /></center></p>
 <p><br><br />
 <h2>Creating the Plug-in Bundle</h2><br />
@@ -56,9 +56,9 @@ There are three types of plugins supported as of the time of writing: </p>
 In a Vienna link plugin, you would use special placeholders to represent this information:<br />
 [html]http://www.facebook.com/sharer.php?u=$ArticleLink$&amp;t=$ArticleTitle$[/html]<br />
 </li></p>
-<li><strong>Script plugins</strong> can run <a href="http://devworld.apple.com/applescript/">AppleScripts</a>, acting on the information that Vienna and other applications exposes to the user via their script suites.</li>
+<li><strong>Script plugins</strong> can run <a href="https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html">AppleScripts</a>, acting on the information that Vienna and other applications exposes to the user via their script suites.</li>
 <li>
-<strong>Blog Editor plugins</strong> are simple plugins that tell Vienna about any application that can use information about blog posts or websites that it sends to it via its export feature. These include <a href="http://www.red-sweater.com/marsedit/">MarsEdit</a>, <a href="http://illuminex.com/ecto/">Ecto</a>, <a href="http://codesorcery.net/pukka">Pukka</a>, <a href="http://www.scifihifi.com/cocoalicious/">Cocoalicious</a> and many others. Quite a few of these are included in the standard distribution. To create your own plugin, you set <em>Type</em> to <em>BlogEditor</em> and <em>BundleIdentifier</em> to the application's <a href="http://developer.apple.com/mac/library/documentation/CoreFoundation/Conceptual/CFBundles/BundleTypes/BundleTypes.html">bundle identifier</a>, which you can find in the<em> Info.plist</em> file inside the application bundle.<br />
+<strong>Blog Editor plugins</strong> are simple plugins that tell Vienna about any application that can use information about blog posts or websites that it sends to it via its export feature. These include <a href="http://www.red-sweater.com/marsedit/">MarsEdit</a>, <a href="http://illuminex.com/ecto/">Ecto</a>, <a href="http://codesorcery.net/pukka">Pukka</a>, <a href="http://www.scifihifi.com/cocoalicious/">Cocoalicious</a> and many others. Quite a few of these are included in the standard distribution. To create your own plugin, you set <em>Type</em> to <em>BlogEditor</em> and <em>BundleIdentifier</em> to the application's <a href="https://developer.apple.com/library/archive/documentation/CoreFoundation/Conceptual/CFBundles/BundleTypes/BundleTypes.html">bundle identifier</a>, which you can find in the<em> Info.plist</em> file inside the application bundle.<br />
 </li></p>
 <p></ul><br />
 Each type requires: </p>
@@ -68,7 +68,7 @@ Each type requires: </p>
 </ul></p>
 <p>Script plugins aditionally require:</p>
 <ul>
-<li><strong>The <a href="http://devworld.apple.com/applescript/">AppleScript</a> file</strong> which, for example, gets information out of Vienna and sends it to an other application.</li></ul></p>
+<li><strong>The <a href="https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html">AppleScript</a> file</strong> which, for example, gets information out of Vienna and sends it to an other application.</li></ul></p>
 <h2>Configuring your Plug-in</h2><br />
 The actual configuration of the plugin happens in its "Info.plist". The following example completely describes Vienna's built-in Facebook plugin:
 
@@ -101,7 +101,7 @@ The actual configuration of the plugin happens in its "Info.plist". The followin
 {% endhighlight %}
 
 
-<p>For more information on understanding and editing .plists, please go read <a href="http://developer.apple.com/mac/library/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.htm">this document</a> at the Apple Developer Connection website.</p>
+<p>For more information on understanding and editing .plists, please go read <a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html">this document</a> at the Apple Developer Connection website.</p>
 <h2>Configuration Entries</h2></p>
 <ul>
 <li><strong>Name</strong>: (mandatory) this is a short, internal, name that uniquely identifies the plugin. It is now displayed in the UI.</li>
