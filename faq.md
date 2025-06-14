@@ -49,7 +49,7 @@ Fixes for bugs take priority over new features so if your problem is confirmed t
 	<a name="How_do_I_create_my_own_styles" id="How_do_I_create_my_own_styles">How do I create my own styles?</a>
 </h2>
 
-See the [Custom Styles page]({{ "/extras/creating-custom-styles/" | prepend: site.baseurl }}) for instructions.
+See the [Custom Styles page]({{ "/development/creating-styles" | prepend: site.baseurl }}) for instructions.
 
 <h2>
 	<a name="How_do_I_create_my_own_scripts" id="How_do_I_create_my_own_scripts">How do I create my own scripts?</a>
@@ -63,7 +63,7 @@ To submit your own script, create an issue or a pull request on our [GitHub page
 	<a name="How_do_I_create_my_own_plugins" id="How_do_I_create_my_own_plugins">How do I create my own plugins?</a>
 </h2>
 
-You can create plugins as easily as editing a single plugin file and no scripting needed. See the [Creating Plugins]({{ "/development/creating-plugins-for-vienna-2-5/" | prepend: site.baseurl }}) page for more details. You can also package and share your plugins with others.
+You can create plugins as easily as editing a single plugin file and no scripting needed. See the [Creating Plugins]({{ "/development/creating-plugins" | prepend: site.baseurl }}) page for more details. You can also package and share your plugins with others.
 
 <h2>
 	<a name="How_can_I_see_what_happened_when_my_subscriptions_are_refreshed" id="How_can_I_see_what_happened_when_my_subscriptions_are_refreshed">How can I see what happened when my subscriptions are refreshed?</a>

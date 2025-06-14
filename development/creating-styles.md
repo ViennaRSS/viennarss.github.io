@@ -19,6 +19,8 @@ categories:
 - Uncategorized
 tags: []
 comments: []
+redirect_from:
+  - /extras/creating-custom-styles
 ---
 
 Vienna supports a variety of different display styles for articles. These styles are provided on the Styles sub-menu off the View menu. A style is a combination of an [HTML](http://en.wikipedia.org/wiki/HTML) template that is used to control the placement of various parts of the article and a [CSS](http://en.wikipedia.org/wiki/Cascading_Style_Sheets) stylesheet that controls the appearance of the article.

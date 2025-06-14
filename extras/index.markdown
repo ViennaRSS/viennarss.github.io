@@ -25,7 +25,7 @@ comments: []
 
 To install custom styles, click on the style name to download it then double-click the downloaded file to unpack the ZIP file. (Browsers like Safari will automatically unpack the file for you). Then finally double-click the extracted .viennastyle file to automatically install the style into Vienna.
 
-See the [Creating Custom Styles](/extras/creating-custom-styles/) page for instructions on how to create your own styles.
+See the [Creating Custom Styles](/development/creating-styles) page for instructions on how to create your own styles.
 
 <ul>
 	<li>
