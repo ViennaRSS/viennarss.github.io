@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>http:&#47;&#47;forums.cocoaforge.com&#47;viewforum.php?f=18</p>
+<p>http://forums.cocoaforge.com/viewforum.php?f=18</p>

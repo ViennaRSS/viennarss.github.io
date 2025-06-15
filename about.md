@@ -17,7 +17,7 @@ Companies which have supported the project include [GitHub](https://www.github.c
 
 ## Where?
 
-The project's [git repository]({{ site.app_github_url }}) is hosted by [GitHub](https://www.github.com). The easiest way to contact the developers is via [GitHub issues]({{ site.app_github_url }}/issues) or [GitHub Discussions]({{ site.app_github_url }}/discussions). For more on how to contribute to the project read this: [Vienna Development](/development).
+The project's [git repository]({{ site.app_github_url }}) is hosted by [GitHub](https://www.github.com). The easiest way to contact the developers is via [GitHub issues]({{ site.app_github_url }}/issues) or [GitHub Discussions]({{ site.app_github_url }}/discussions). For more on how to contribute to the project read this: [Vienna Development]({{ '/development/' | prepend: site.baseurl }}).
 
 ## Who uses Vienna?
 

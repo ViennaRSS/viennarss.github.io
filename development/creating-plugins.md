@@ -2,7 +2,7 @@
 layout: page
 status: publish
 published: true
-title: Creating Plugins
+title: Creating Plug-ins
 author:
   display_name: Steve Palmer
   login: Steve Palmer
@@ -39,11 +39,13 @@ comments:
   date: '2010-03-19 09:18:42 +1100'
   date_gmt: '2010-03-19 09:18:42 +1100'
   content: "[...] Creating Plugins (v2.5) [...]"
+redirect_from:
+  - /development/creating-plugins-for-vienna-2-5
 ---
-<p>Starting with v2.5 and later, Vienna supports plugins which are installed on the toolbar and can run defined actions. These plugins are XML-based and can be created by editing a simple <a href="http://developer.apple.com/mac/library/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html">.plist-file</a> without any knowledge of Cocoa programming, in as little as 15 minutes.  This section describes how to create your own plugins, which will look and work exactly like the built-in ones:<br />
-<center><img alt="Vienna 2.5 supports user-creatable plugins" src="http://www.vienna-rss.com/img/plugins.png" title="Vienna 2.5 supports user-creatable plugins" width="327" height="77" /></center></p>
+<p>Starting with v2.5 and later, Vienna supports plugins which are installed on the toolbar and can run defined actions. These plugins are XML-based and can be created by editing a simple <a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html">.plist-file</a> without any knowledge of Cocoa programming, in as little as 15 minutes.  This section describes how to create your own plugins, which will look and work exactly like the built-in ones:<br />
+<center><img alt="Vienna 2.5 supports user-creatable plugins" src="{{ '/images/plugins.png' | prepend: site.baseurl }}" title="Vienna 2.5 supports user-creatable plugins" width="327" height="77" /></center></p>
 <p><br><br />
-<h2>Creating the Plugin Bundle</h2><br />
+<h2>Creating the Plug-in Bundle</h2><br />
 Vienna plugins are distributed in the form of folders with the extension "<strong>.viennaplugin</strong>", which OS X automatically treats as bundles. Simply create a new folder, named like your new plugin. Then edit its name and append ".viennaplugin". This registers the folder as a Vienna plugin folder so that it can be double-clicked or dragged-and-dropped on the Vienna application icon to automatically install it. After this step, you can view the folder's contents via control/right-clicking and choosing "Show Package Contents" from the menu.</p>
 <h2>Adding the Necessary Files</h2><br />
 There are three types of plugins supported as of the time of writing: </p>
@@ -54,21 +56,21 @@ There are three types of plugins supported as of the time of writing: </p>
 In a Vienna link plugin, you would use special placeholders to represent this information:<br />
 [html]http://www.facebook.com/sharer.php?u=$ArticleLink$&amp;t=$ArticleTitle$[/html]<br />
 </li></p>
-<li><strong>Script plugins</strong> can run <a href="http://devworld.apple.com/applescript/">AppleScripts</a>, acting on the information that Vienna and other applications exposes to the user via their script suites.</li>
+<li><strong>Script plugins</strong> can run <a href="https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html">AppleScripts</a>, acting on the information that Vienna and other applications exposes to the user via their script suites.</li>
 <li>
-<strong>Blog Editor plugins</strong> are simple plugins that tell Vienna about any application that can use information about blog posts or websites that it sends to it via its export feature. These include <a href="http://www.red-sweater.com/marsedit/">MarsEdit</a>, <a href="http://illuminex.com/ecto/">Ecto</a>, <a href="http://codesorcery.net/pukka">Pukka</a>, <a href="http://www.scifihifi.com/cocoalicious/">Cocoalicious</a> and many others. Quite a few of these are included in the standard distribution. To create your own plugin, you set <em>Type</em> to <em>BlogEditor</em> and <em>BundleIdentifier</em> to the application's <a href="http://developer.apple.com/mac/library/documentation/CoreFoundation/Conceptual/CFBundles/BundleTypes/BundleTypes.html">bundle identifier</a>, which you can find in the<em> info.plist</em> file inside the application bundle.<br />
+<strong>Blog Editor plugins</strong> are simple plugins that tell Vienna about any application that can use information about blog posts or websites that it sends to it via its export feature. These include <a href="http://www.red-sweater.com/marsedit/">MarsEdit</a>, <a href="http://illuminex.com/ecto/">Ecto</a>, <a href="http://codesorcery.net/pukka">Pukka</a>, <a href="http://www.scifihifi.com/cocoalicious/">Cocoalicious</a> and many others. Quite a few of these are included in the standard distribution. To create your own plugin, you set <em>Type</em> to <em>BlogEditor</em> and <em>BundleIdentifier</em> to the application's <a href="https://developer.apple.com/library/archive/documentation/CoreFoundation/Conceptual/CFBundles/BundleTypes/BundleTypes.html">bundle identifier</a>, which you can find in the<em> Info.plist</em> file inside the application bundle.<br />
 </li></p>
 <p></ul><br />
 Each type requires: </p>
 <ul>
-<li>An <strong>info.plist</strong> file which defines the plugin's attributes.</li>
+<li>An <strong>Info.plist</strong> file which defines the plugin's attributes.</li>
 <li>An <strong>icon file</strong>, preferably a 16×16 TIFF without layers but with an alpha channel.</li><br />
 </ul></p>
 <p>Script plugins aditionally require:</p>
 <ul>
-<li><strong>The <a href="http://devworld.apple.com/applescript/">AppleScript</a> file</strong> which, for example, gets information out of Vienna and sends it to an other application.</li></ul></p>
-<h2>Configuring your Plugin</h2><br />
-The actual configuration of the plugin happens in its "info.plist". The following example completely describes Vienna's built-in Facebook plugin:
+<li><strong>The <a href="https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html">AppleScript</a> file</strong> which, for example, gets information out of Vienna and sends it to an other application.</li></ul></p>
+<h2>Configuring your Plug-in</h2><br />
+The actual configuration of the plugin happens in its "Info.plist". The following example completely describes Vienna's built-in Facebook plugin:
 
 <pre><code>
 {% highlight xml %}
@@ -99,18 +101,18 @@ The actual configuration of the plugin happens in its "info.plist". The followin
 {% endhighlight %}
 
 
-<p>For more information on understanding and editing .plists, please go read <a href="http://developer.apple.com/mac/library/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.htm">this document</a> at the Apple Developer Connection website.</p>
+<p>For more information on understanding and editing .plists, please go read <a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html">this document</a> at the Apple Developer Connection website.</p>
 <h2>Configuration Entries</h2></p>
 <ul>
 <li><strong>Name</strong>: (mandatory) this is a short, internal, name that uniquely identifies the plugin. It is now displayed in the UI.</li>
 <li><strong>Type</strong>: (mandatory) this specifies the plugin type. Three values are accepted: <strong>Link</strong>,  <strong>Script</strong> and <strong>BlogEditor</strong>.</li>
 <li><strong>BundleIdentifier</strong>: Only used for BlogEditor plugins, this defines the identifier of the application that you want to be called.</li>
-<li><strong>URL</strong>: (mandatory for link-type plugins) this is the URL that is browed when the plugin button is clicked. Vienna substitutes the $...$ placeholders with actual values from the current article being viewed. See <a href="http://www.vienna-rss.com/?page_id=65">here</a> for a list of placeholders.</li>
-<li><strong>Script</strong>: (mandatory for script-type plugins) this is the name of the script file in the same folder as the info.plist.</li>
+<li><strong>URL</strong>: (mandatory for link-type plugins) this is the URL that is browed when the plugin button is clicked. Vienna substitutes the $...$ placeholders with actual values from the current article being viewed. See <a href="{{ '/development/creating-styles' | prepend: site.baseurl }}">here</a> for a list of placeholders.</li>
+<li><strong>Script</strong>: (mandatory for script-type plugins) this is the name of the script file in the same folder as the Info.plist.</li>
 <li><strong>Default</strong>: if this is set to true then this plugin appears on the default toolbar.</li>
 <li><strong>FriendlyName</strong>: this is the short name of the plugin that appears as the plugin button text on the toolbar. It should be kept as short as possible. If omitted, the internal name is used instead.</li>
 <li><strong>Tooltip</strong>: this is the text of the tooltip that appears when you hover over the plugin button on the toolbar. If omitted, the friendly name is displayed instead.</li>
-<li><strong>ButtonImage</strong>: (mandatory) this is the name of a 16x16 TIFF image in the same folder as the info.plist that will be used as the toolbar button image. For small buttons, Vienna takes this and reduces it to 12x12 automatically. However if you specify a TIFF image with the "small" prefix to the button image name then Vienna will use that for small buttons.</li>
+<li><strong>ButtonImage</strong>: (mandatory) this is the name of a 16x16 TIFF image in the same folder as the Info.plist that will be used as the toolbar button image. For small buttons, Vienna takes this and reduces it to 12x12 automatically. However if you specify a TIFF image with the "small" prefix to the button image name then Vienna will use that for small buttons.</li>
 <li><strong>ShortenURLs</strong>: for link type plugins, specifies whether Vienna shortens the URL before using it. Vienna uses the <a href="http://www.bit.ly">bit.ly</a> API to do this, there is nothing else you have to specify. To see it in action, try the built-in <a href="http://www.twitter.com">Twitter</a> plugin.</li>
 <li><strong>MenuPath</strong>: specifies an optional name for the plugin at the end of the Article menu.
 <li><strong>MenuKey</strong>: specifies an optional key association for the plugin in the menu. This should be one or more of: Cmd, Ctrl, Alt and Shift, separated by a '+' character and finally a single letter or number character.<br />

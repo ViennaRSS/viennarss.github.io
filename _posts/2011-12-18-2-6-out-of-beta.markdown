@@ -20,5 +20,5 @@ categories:
 tags: []
 ---
 <p>2.6 has been stable for a very, very long time - so I'll just make it official :-) One small but handy thing that I added is a plugin for effortless sharing with <a href="http://www.bufferapp.com">Buffer</a>. It's a very useful service that has popped up between the beta release and now - check it out and have fun!</p>
-<p><center><a href="http://sourceforge.net/projects/vienna-rss/files/ReleasedVersions/2.6.0/Vienna2.6.0.2601.zip/download"><img alt="Vienna 2.6 supports user-creatable plugins" src="http://www.vienna-rss.com/img/plugins.png" title="Vienna 2.6 supports user-creatable plugins" width="327" height="77" /></a><br/><br />
+<p><center><a href="http://sourceforge.net/projects/vienna-rss/files/ReleasedVersions/2.6.0/Vienna2.6.0.2601.zip/download"><img alt="Vienna 2.6 supports user-creatable plugins" src="{{ '/images/plugins.png' | prepend: site.baseurl }}" title="Vienna 2.6 supports user-creatable plugins" width="327" height="77" /></a><br/><br />
 <h3>Click to download: <a href="http://sourceforge.net/projects/vienna-rss/files/ReleasedVersions/2.6.0/Vienna2.6.0.2601.zip/download"><strong>Vienna 2.6</strong></a></h3></center></p>

@@ -19,6 +19,8 @@ categories:
 - Uncategorized
 tags: []
 comments: []
+redirect_from:
+  - /extras/creating-custom-styles
 ---
 
 Vienna supports a variety of different display styles for articles. These styles are provided on the Styles sub-menu off the View menu. A style is a combination of an [HTML](http://en.wikipedia.org/wiki/HTML) template that is used to control the placement of various parts of the article and a [CSS](http://en.wikipedia.org/wiki/Cascading_Style_Sheets) stylesheet that controls the appearance of the article.
@@ -48,7 +50,7 @@ You can have additional files such as images, but these two files must be presen
 The parts in `$...$` are special placeholders, called **tags**, that Vienna will fill in when it displays the article. After you have created your style, restart Vienna and your new style should appear on the Styles submenu. Switch to it see your finished work.
 
 ### Available Tags
-The following is a complete list of the tags currently available to you. They are named to be self-explanatory. If you have an idea for a style that would need the application to expose additional information, please bring it up on the [GitHub Discussions page]({{ site.app_github_url }}/discussions) or create a new issue on [GitHub]({{ site.app_github_url }}/discussions/issues).
+The following is a complete list of the tags currently available to you. They are named to be self-explanatory. If you have an idea for a style that would need the application to expose additional information, please bring it up on the [GitHub Discussions page]({{ site.app_github_url }}/discussions) or create a new issue on [GitHub]({{ site.app_github_url }}/issues).
 
 * `$ArticleLink$`
 * `$ArticleTitle$`
