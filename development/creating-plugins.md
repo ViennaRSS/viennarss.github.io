@@ -43,7 +43,7 @@ redirect_from:
   - /development/creating-plugins-for-vienna-2-5
 ---
 <p>Starting with v2.5 and later, Vienna supports plugins which are installed on the toolbar and can run defined actions. These plugins are XML-based and can be created by editing a simple <a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html">.plist-file</a> without any knowledge of Cocoa programming, in as little as 15 minutes.  This section describes how to create your own plugins, which will look and work exactly like the built-in ones:<br />
-<center><img alt="Vienna 2.5 supports user-creatable plugins" src="http://www.vienna-rss.com/img/plugins.png" title="Vienna 2.5 supports user-creatable plugins" width="327" height="77" /></center></p>
+<center><img alt="Vienna 2.5 supports user-creatable plugins" src="{{ '/images/plugins.png' | prepend: site.baseurl }}" title="Vienna 2.5 supports user-creatable plugins" width="327" height="77" /></center></p>
 <p><br><br />
 <h2>Creating the Plug-in Bundle</h2><br />
 Vienna plugins are distributed in the form of folders with the extension "<strong>.viennaplugin</strong>", which OS X automatically treats as bundles. Simply create a new folder, named like your new plugin. Then edit its name and append ".viennaplugin". This registers the folder as a Vienna plugin folder so that it can be double-clicked or dragged-and-dropped on the Vienna application icon to automatically install it. After this step, you can view the folder's contents via control/right-clicking and choosing "Show Package Contents" from the menu.</p>
