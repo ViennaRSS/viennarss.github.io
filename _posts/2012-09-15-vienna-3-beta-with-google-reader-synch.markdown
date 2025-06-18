@@ -20,43 +20,46 @@ categories:
 tags: []
 comments: []
 ---
-<p><em>UPDATED Jan 2nd 2012  : download link has been updated and refers to 3.0.0 Beta 8</em></p>
-<p>Since I transferred <a href="https://github.com/ViennaRSS/vienna-rss">Vienna's development to GitHub</a>, we have been getting lots and lots of great contributions to the project. Chief among new contributors are <a href="http://ansani.it/">Salvatore Ansani</a> and <a href="http://blog.barijaona.com/">Barijaona Ramaholimihaso</a>. Their work has led to a new release of Vienna, which you can now download here:</p>
-<h2><a href="http://sourceforge.net/projects/vienna-rss/files/TestVersions/3.0.0_beta8/Vienna3.0.0_beta8.tgz/download">Download Vienna 3 BETA</a></h2><br />
-They have been working on a slew of bug-fixes and improvements (Google Reader support!) that you can now find in Vienna 3 BETA:</p>
-<h4 id="b.2819">3.0b.2819</h4></p>
-<ul>
-<li>Fix other nasty crashes on Mountain Lion</li><br />
-</ul></p>
-<h4 id="b.2818">3.0b.2818</h4></p>
-<ul>
-<li>Fix some nasty crashes on Mountain Lion which occurred when closing tabs</li>
-<li>Fix the “Check for newer versions of Vienna at startup” preference</li>
-<li>Make the knob of the vertical scrollbar more visible when reading long lists on Lion/Mountain Lion</li>
-<li>Other minor bugfixes and code cleaning</li><br />
-</ul></p>
-<h4 id="b.2817">3.0b.2817</h4></p>
-<ul>
-<li>Fix fetching of icons associated to feeds.<br />
-<em>Note</em> : users of previous versions are invited to use the “Refresh Folder Images” menu item</li></p>
-<li>Better accessibility for people with visual impairment through VoiceOver</li>
-<li>Completely logout from Google Reader when the “Sync with Google Reader” preference is unchecked</li>
-<li>Builds are now signed with Developer IDs delivered by Apple, to meet Mountain Lion’s Gatekeeper default requirements.</li><br />
-</ul></p>
-<h4 id="b.2816">3.0b.2816</h4></p>
-<ul>
-<li>Google Reader support ! Each feed can either be local (especially authenticated feeds, which are not handled by Google Reader), or hosted on Google Reader</li>
-<li>64 bit support</li>
-<li>Full Screen support on Mac OSX Lion and Mountain Lion</li>
-<li>Fixes running on Leopard and on PowerPC</li>
-<li>Fixes feeds whose titles are XHTML or contain linefeeds/carriage returns</li>
-<li>Fixes Atom feeds with relative links</li>
-<li>Stay on Discrete Graphics mode on Macs having dual graphics cards</li>
-<li>Improved web browser experience (persistent cookies)</li>
-<li>Some functions which were only available on Report or Condensed layout are now available on Unified layout</li>
-<li>Increased timeout for feeds refresh</li>
-<li>Larger use of multi-threading</li>
-<li>Compiled with LLVM</li>
-<li>Binaries are now signed to avoid blockade by Mountain Lion’s gatekeeper default settings (for first run, you’ll have to right click and select ‘Open’)</li>
-<li>Many other bugfixes</li><br />
-</ul></p>
+*UPDATED Jan 2nd 2012  : download link has been updated and refers to 3.0.0 Beta 8*
+
+Since I transferred [Vienna's development to GitHub](https://github.com/ViennaRSS/vienna-rss), we have been getting lots and lots of great contributions to the project. Chief among new contributors are [Salvatore Ansani](http://ansani.it/) and [Barijaona Ramaholimihaso](http://blog.barijaona.com/). Their work has led to a new release of Vienna, which you can now download here:
+
+## [Download Vienna 3 BETA](http://sourceforge.net/projects/vienna-rss/files/TestVersions/3.0.0_beta8/Vienna3.0.0_beta8.tgz/download)
+
+They have been working on a slew of bug-fixes and improvements (Google Reader support!) that you can now find in Vienna 3 BETA:
+
+#### 3.0b.2819
+
+- Fix other nasty crashes on Mountain Lion
+
+#### 3.0b.2818
+
+- Fix some nasty crashes on Mountain Lion which occurred when closing tabs
+- Fix the “Check for newer versions of Vienna at startup” preference
+- Make the knob of the vertical scrollbar more visible when reading long lists on Lion/Mountain Lion
+- Other minor bugfixes and code cleaning
+
+#### 3.0b.2817
+
+- Fix fetching of icons associated to feeds.\
+*Note* : users of previous versions are invited to use the “Refresh Folder Images” menu item
+- Better accessibility for people with visual impairment through VoiceOver
+- Completely logout from Google Reader when the “Sync with Google Reader” preference is unchecked
+- Builds are now signed with Developer IDs delivered by Apple, to meet Mountain Lion’s Gatekeeper default requirements.
+
+#### 3.0b.2816
+
+- Google Reader support ! Each feed can either be local (especially authenticated feeds, which are not handled by Google Reader), or hosted on Google Reader
+- 64 bit support
+- Full Screen support on Mac OSX Lion and Mountain Lion
+- Fixes running on Leopard and on PowerPC
+- Fixes feeds whose titles are XHTML or contain linefeeds/carriage returns
+- Fixes Atom feeds with relative links
+- Stay on Discrete Graphics mode on Macs having dual graphics cards
+- Improved web browser experience (persistent cookies)
+- Some functions which were only available on Report or Condensed layout are now available on Unified layout
+- Increased timeout for feeds refresh
+- Larger use of multi-threading
+- Compiled with LLVM
+- Binaries are now signed to avoid blockade by Mountain Lion’s gatekeeper default settings (for first run, you’ll have to right click and select ‘Open’)
+- Many other bugfixes

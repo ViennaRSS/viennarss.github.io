@@ -21,4 +21,4 @@ categories:
 - Release
 tags: []
 ---
-<p>Steve Palmer just posted some information about <strong>Vienna 2.6 BETA</strong> to the forums. Read the <a href="http://www.cocoaforge.com/viewtopic.php?f=18&t=23397&sid=5f9c27964323b68d94fee06ebc950ea2">release notes</a> and then go and <a href="http://sourceforge.net/projects/vienna-rss/files/TestVersions/2.6.0.2600/Vienna2.6.0.2600.zip/download">download it here</a>. Please note that this is unsupported pre-release software.</p>
+Steve Palmer just posted some information about **Vienna 2.6 BETA** to the forums. Read the [release notes](http://www.cocoaforge.com/viewtopic.php?f=18&t=23397&sid=5f9c27964323b68d94fee06ebc950ea2) and then go and [download it here](http://sourceforge.net/projects/vienna-rss/files/TestVersions/2.6.0.2600/Vienna2.6.0.2600.zip/download). Please note that this is unsupported pre-release software.

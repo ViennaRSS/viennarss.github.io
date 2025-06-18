@@ -21,4 +21,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>Thanks go to <a href="http://blog.ratschiller.com/">Tobias Ratschiller</a> (<a href="http://en.wikipedia.org/Tobias_Ratschiller">PHP Black Belt</a>, <a href="http://www.amazon.com/Tobias-Ratschiller/e/B001KE8PTI">10th Dan</a>) and his company <a href="http://www.senzalimiti.com">Senza Limiti</a>. He just made a contribution to the project which will help support continued development. He's also an all-around nice guy, which is a bonus ;-)</p>
+Thanks go to [Tobias Ratschiller](http://blog.ratschiller.com/) ([PHP Black Belt](http://en.wikipedia.org/Tobias_Ratschiller), [10th Dan](http://www.amazon.com/Tobias-Ratschiller/e/B001KE8PTI)) and his company [Senza Limiti](http://www.senzalimiti.com). He just made a contribution to the project which will help support continued development. He's also an all-around nice guy, which is a bonus ;-)
