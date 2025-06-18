@@ -1,7 +1,7 @@
 ---
 layout: page
 status: publish
-published: true
+published: false
 title: Browse Source
 author:
   display_name: Vienna Administrators
@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>http:&#47;&#47;github.com&#47;ViennaRSS&#47;vienna-rss</p>
+<p>http://github.com/ViennaRSS/vienna-rss</p>
