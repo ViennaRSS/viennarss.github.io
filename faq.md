@@ -64,11 +64,13 @@ By default, your Vienna database is the messages.db file which is located at ~/L
 1. Shut down Vienna.
 2. Open a console window and enter:
 
-`defaults write uk.co.opencommunity.vienna2 "DefaultDatabase" '<path to new messages.db>'` 
-	where
-`<path to new messages.db>` is the name of the folder that contains the messages.db file. The path itself should have the messages.db filename at the end. 
-	
-	For example: `defaults write uk.co.opencommunity.vienna2 "DefaultDatabase" '/Users/steve/mydata/messages.db'`
+       defaults write uk.co.opencommunity.vienna2 "DefaultDatabase" '<path to new messages.db>'
+
+   where `<path to new messages.db>` is the name of the folder that contains the messages.db file. The path itself should have the messages.db filename at the end.
+
+   For example:
+
+       defaults write uk.co.opencommunity.vienna2 "DefaultDatabase" '/Users/steve/mydata/messages.db'
 3. Restart Vienna.
 
 ## One of my subscriptions reports "Error parsing XML data in feed". What does this mean? {#One_of_my_subscriptions_reports_Error_parsing_XML_data_in_feed._What_does_this_mean}
