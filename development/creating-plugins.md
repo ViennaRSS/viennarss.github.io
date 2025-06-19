@@ -40,7 +40,7 @@ comments:
   date_gmt: '2010-03-19 09:18:42 +1100'
   content: "[...] Creating Plugins (v2.5) [...]"
 redirect_from:
-  - /development/creating-plugins-for-vienna-2-5
+  - /development/creating-plugins-for-vienna-2-5/
 ---
 <p>Starting with v2.5 and later, Vienna supports plugins which are installed on the toolbar and can run defined actions. These plugins are XML-based and can be created by editing a simple <a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/PropertyLists/UnderstandXMLPlist/UnderstandXMLPlist.html">.plist-file</a> without any knowledge of Cocoa programming, in as little as 15 minutes.  This section describes how to create your own plugins, which will look and work exactly like the built-in ones:<br />
 <center><img alt="Vienna 2.5 supports user-creatable plugins" src="{{ '/images/plugins.png' | prepend: site.baseurl }}" title="Vienna 2.5 supports user-creatable plugins" width="327" height="77" /></center></p>
