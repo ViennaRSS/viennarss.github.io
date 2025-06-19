@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>We are currently in the process of updating our website to a new content management system. While this update is in progress, not all the information available from the old website will be avaible here. However, this is a temporary situation, and everything will soon be in order again :-)</p>
+We are currently in the process of updating our website to a new content management system. While this update is in progress, not all the information available from the old website will be avaible here. However, this is a temporary situation, and everything will soon be in order again :-)

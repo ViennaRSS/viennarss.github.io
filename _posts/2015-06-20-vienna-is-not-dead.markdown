@@ -19,6 +19,8 @@ categories:
 tags: []
 comments: []
 ---
-<p>Hi all!</p>
-<p>Just a short note to let you know that Vienna is not dead, it was just sleeping. Development will be starting back up soon and I hope to bring you a lovely new version to coincide with the release of OS X El Capitan later this year.</p>
-<p>We will be migrating the website from WordPress to GitHub Pages in the coming weeks as well. Stay tuned for more news! </p>
+Hi all!
+
+Just a short note to let you know that Vienna is not dead, it was just sleeping. Development will be starting back up soon and I hope to bring you a lovely new version to coincide with the release of OS X El Capitan later this year.
+
+We will be migrating the website from WordPress to GitHub Pages in the coming weeks as well. Stay tuned for more news!

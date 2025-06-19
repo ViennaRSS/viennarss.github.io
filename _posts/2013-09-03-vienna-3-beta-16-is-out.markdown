@@ -20,5 +20,6 @@ categories:
 tags: []
 comments: []
 ---
-<p>Vienna 3 Beta 16 requires MacOS X Leopard (10.6) or later.</p>
-<p>We highly recommend all users of previous versions to upgrade to this version. Don't let the "beta" label impress you : it is much better than 2.6.  <a href="https://sourceforge.net/projects/vienna-rss/files/latest/download">Download link</a></p>
+Vienna 3 Beta 16 requires MacOS X Leopard (10.6) or later.
+
+We highly recommend all users of previous versions to upgrade to this version. Don't let the "beta" label impress you : it is much better than 2.6.  [Download link](https://sourceforge.net/projects/vienna-rss/files/latest/download)

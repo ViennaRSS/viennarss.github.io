@@ -18,9 +18,9 @@ Thankfully, we have been able to improve it with two changes.
 
 First, through the use of new algorithms, Vienna 3.5.6 is able to significantly reduce the network traffic between your Mac and any OpenReader server, including Inoreader. The gain is particularly noticeable if you privilege the actions present in the 'Folder' menu for marking articles read, rather than the actions present in the 'Article' menu.
 
-For the time being, we recommend not to use the "<i>Mark current article read after a short delay</i>" setting in Preferences, if you are syncing with Inoreader. This could lead to a quick exhaustion of the daily quota of actions that Inoreader allocates to our app.
+For the time being, we recommend not to use the "*Mark current article read after a short delay*" setting in Preferences, if you are syncing with Inoreader. This could lead to a quick exhaustion of the daily quota of actions that Inoreader allocates to our app.
 
-Instead, set "<i>Mark current article read after "Next Unread" command</i>" in the Preferences. Then, mainly use the "<i>Mark All Articles as Read</i>" or "<i>Skip Folder</i>" commands for updating your reading progression.
+Instead, set "*Mark current article read after "Next Unread" command*" in the Preferences. Then, mainly use the "*Mark All Articles as Read*" or "*Skip Folder*" commands for updating your reading progression.
 
 Another important change is that each Vienna user is now able to get his/her personal quota to be used with Inoreader, instead of using the very limited quota which has been assigned to us developers.
 
