@@ -20,11 +20,18 @@ categories:
 tags: []
 comments: []
 ---
-<p>Google Reader is Dead. Too bad we spent so much time to implement it... But Google Reader was just an option when using Vienna 3, and it was not the default option.</p>
-<p>Vienna is also (and mainly) a very capable standalone RSS feed reader.</p>
-<p>OS X Daily <a href="http://osxdaily.com/2013/03/14/best-google-reader-alternatives/">writes</a> :</p>
-<blockquote><p>Vienna is an excellent RSS reader for Mac users, and for most people either Vienna or NetNewsWire will be their best bets on the Mac side of things. Free, super easy to subscribe to new feeds, a very familiar interface, Vienna is all around a winning choice for following and managing RSS subscriptions. This is now our top choice for the Mac.</blockquote><br />
-:-)</p>
-<p>So, to mark our willingness to go forward, Vienna 3 Beta 10 was released today. And we think it is reasonable to promote it as the default download.</p>
-<p>Because even if it not yet completely finished, it is much more stable than the 2.6 version. And with its new revamped look, it looks so much better ! So, give it a try and spread the word.</p>
-<p><a href="https://sourceforge.net/projects/vienna-rss/files/latest/download"> Download the latest Vienna </a></p>
+Google Reader is Dead. Too bad we spent so much time to implement it... But Google Reader was just an option when using Vienna 3, and it was not the default option.
+
+Vienna is also (and mainly) a very capable standalone RSS feed reader.
+
+OS X Daily [writes](http://osxdaily.com/2013/03/14/best-google-reader-alternatives/) :
+
+> Vienna is an excellent RSS reader for Mac users, and for most people either Vienna or NetNewsWire will be their best bets on the Mac side of things. Free, super easy to subscribe to new feeds, a very familiar interface, Vienna is all around a winning choice for following and managing RSS subscriptions. This is now our top choice for the Mac.
+
+:-)
+
+So, to mark our willingness to go forward, Vienna 3 Beta 10 was released today. And we think it is reasonable to promote it as the default download.
+
+Because even if it not yet completely finished, it is much more stable than the 2.6 version. And with its new revamped look, it looks so much better ! So, give it a try and spread the word.
+
+[ Download the latest Vienna ](https://sourceforge.net/projects/vienna-rss/files/latest/download)

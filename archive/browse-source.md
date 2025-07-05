@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>http://github.com/ViennaRSS/vienna-rss</p>
+http://github.com/ViennaRSS/vienna-rss
