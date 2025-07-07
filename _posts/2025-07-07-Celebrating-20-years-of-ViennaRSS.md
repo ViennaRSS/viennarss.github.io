@@ -45,7 +45,7 @@ All right, that was fine. But a mystery remained: why was the application named 
 
 I found the answer in the help files, which seemed familiar…  
 
-![Screenshot of Help file](/images/20th/VIenna2-help.png)
+![Screenshot of Help file](/images/20th/Vienna2-help.png)
 
 … but contained some informations which differed from what we are used to.
 
@@ -53,7 +53,7 @@ This led me to the [archives](https://web.archive.org/web/20050206212851/http://
 
 A new visit to [Sourceforge](https://cix-vienna.sourceforge.net) and an [installation](https://sourceforge.net/projects/cix-vienna/files/) confirmed that while Vienna for CIX and Vienna RSS shared some technical components, the goal of the former was really different.
 
-![Screenshot of Vienna for CIX](/images/20th/VIenna1.png)
+![Screenshot of Vienna for CIX](/images/20th/Vienna1.png)
 
 ## Under the hood
 
