@@ -183,25 +183,25 @@ As I was far from being confident with Apple's tools, [dak180](https://github.co
 While I was finishing the Google Reader support started by Adam Hartford and [Salvatore Ansani](https://github.com/ansani/), Google announced it would end Google Reader… That is far from being the single reason why Vienna 3 had 20 beta versions and 9 release candidate versions before being released in November 2014!
 
 |![Current icon for Vienna RSS](/images/20th/icon2-3.png)|
-A new icon authored by a forum user named @romiq and [Nick Dazé](https://github.com/nickdaze) and  was introduced in 2013|
+A new icon authored by a forum user named @romiq and [Nick Dazé](https://github.com/nickdaze) was introduced in 2013|
 
 ### [Josh](https://github.com/josh64x2 @josh64@mastodon.social)
 
-Joshua Pore started contributing in 2014. He was key in structuring our methodologies and remaking the website… Most importantly to me, he helped me defeat my reluctances to refactor things and to delve into Interface Builder!
+Joshua Pore started contributing in 2014. He was key in structuring our methodologies and remaking the website. Most importantly to me, he helped me defeat my reluctance to refactor things and to delve into Interface Builder!
 
-He remains active, but somewhat regrets the good old times when Apple was focusing on AppKit and objective-C.
+He remains active, but somewhat regrets the good old times when Apple was focusing on AppKit and Objective-C.
 
 ### [Eitot](https://github.com/Eitot)
 
-Eitot began contributing in 2017. He was the first to introduce Swift in our codebase, and is the main force behind current refactoring decisions. But he is also very attentive to details. He added the support of JSON Feed.
+Eitot began contributing in 2017. He was the first to introduce Swift in our codebase, and is the main force behind current refactoring decisions. But he is also very attentive to details. He added the support for JSON Feed.
 
 ### [Tassilo Karge](https://github.com/Takeanice)
 
-Tassilo began contributing in 2018. He is the main force behind the transition from old school Webview to WKWebView and the improvements to smart folders.
+Tassilo began contributing in 2018. He is the main force behind the transition from old school WebView to WKWebView and the improvements to smart folders.
 
-## Whats next?
+## What's next?
 
-Stay tuned! You can participate to discussions [like this one](https://github.com/ViennaRSS/vienna-rss/issues/1476).
+Stay tuned! You can participate in discussions [like this one](https://github.com/ViennaRSS/vienna-rss/issues/1476).
 
 You can also follow me in Vienna, via this [RSS feed](https://mastodon.mg/@barijaona.rss) (which is not solely dedicated to Vienna).
 
