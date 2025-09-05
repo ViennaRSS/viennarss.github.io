@@ -1,0 +1,29 @@
+<!DOCTYPE html><head><meta charset="utf-8"/></head><h2>Vienna 3.10.0 Beta 6</h2>
+<p><em>released 2025-09-05</em></p>
+<h3>🚲 Changes</h3>
+<ul>
+<li>Support closing tabs by clicking the middle button of the mouse</li>
+<li>Change application icon to conform to style of macOS 11 and later</li>
+<li>Change position of filter bar in vertical layout</li>
+<li>Suspend (up to 5 minutes) connection attempts when the computer is disconnected from network</li>
+<li>Use green double dot instead of yellow sparkle as mark of revised articles in article list</li>
+<li>Be more tolerant with feeds using RSS tags instead of Atom tags (or vice-versa)</li>
+</ul>
+<h3>🤷🏻 Bugfix</h3>
+<ul>
+<li>Fix colors when a cell is selected and right clicked in article list</li>
+<li>Respect the high contrast accessibility setting for bottom line</li>
+<li>Add missing separator to filter submenu in main menu</li>
+<li>Fix / improve validation for some menu / toolbar items</li>
+<li>Fix crash or inability to parse caused by some feeds containing HTML tags instead of their XHTML equivalents</li>
+</ul>
+<h3>⚙️ Internals improvement</h3>
+<ul>
+<li>Refactor filter bar into its own view controller</li>
+<li>Move several actions from AppController to ArticleController; rename many actions; remove unused methods from BaseView protocol</li>
+<li>Use storyboard for activity window and NewSubscription</li>
+<li>Remove deprecated network calls</li>
+<li>Reorganize classes related to article list in Xcode layout</li>
+<li>Fix definition &amp; handling of ArticleStatusUpdated</li>
+<li>Minor fix in Changelog regarding versions 2.6.0</li>
+</ul>
