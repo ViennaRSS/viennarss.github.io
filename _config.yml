@@ -4,7 +4,7 @@ description: The Free and Open-Source RSS/Atom Reader for macOS
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.vienna-rss.com" # the base hostname & protocol for your site
 copyright: >
-  Copyright © 2010–2025 All Rights Reserved by the ViennaRSS Project.
+  Copyright © 2010–2026 All Rights Reserved by the ViennaRSS Project.
 github_username:  ViennaRSS
 app_github_url: https://github.com/ViennaRSS/vienna-rss
 site_github_url: https://github.com/ViennaRSS/viennarss.github.io
