@@ -7,14 +7,14 @@
 		<language>en-us</language>
 		<copyright>Copyright 2010-2025, Steve Palmer and contributors</copyright>
 		<item>
-			<title>Vienna 3.10.2 :be40651f:</title>
-			<pubDate>Tue, 24 Feb 2026 12:59:25 +0000</pubDate>
-			<link>https://github.com/ViennaRSS/vienna-rss/releases/tag/v%2F3.10.2</link>
-			<sparkle:version>8843</sparkle:version>
-			<sparkle:shortVersionString>3.10.2 :be40651f:</sparkle:shortVersionString>
+			<title>Vienna 3.10.3 :d377d7c9:</title>
+			<pubDate>Mon, 16 Mar 2026 11:37:55 +0000</pubDate>
+			<link>https://github.com/ViennaRSS/vienna-rss/releases/tag/v%2F3.10.3</link>
+			<sparkle:version>8872</sparkle:version>
+			<sparkle:shortVersionString>3.10.3 :d377d7c9:</sparkle:shortVersionString>
 			<sparkle:minimumSystemVersion>10.13.0</sparkle:minimumSystemVersion>
-			<enclosure url="https://downloads.sourceforge.net/project/vienna-rss/v_3.10.2/Vienna3.10.2.dmg" sparkle:edSignature="lqF4V41cnMYF3/6+BVXPf0xrFNMa6AQlow3bve4LPBwivhks+QvB0zXua/5AdFuUSae8JTFw9XGBAS23yT+mDw==" length="9180277" type="application/octet-stream" />
-			<sparkle:releaseNotesLink>https://www.vienna-rss.com/sparkle-files/noteson3.10.2.html</sparkle:releaseNotesLink>
+			<enclosure url="https://downloads.sourceforge.net/project/vienna-rss/v_3.10.3/Vienna3.10.3.dmg" sparkle:edSignature="dALZz4ecgWpSvk+K5vsRi90XOdi/+H7kkUgV2EbKipzX8+tYK7ESvi9KGAqVfaFOmBBcU5FoM0odSsNZjc9gCA==" length="9187526" type="application/octet-stream" />
+			<sparkle:releaseNotesLink>https://www.vienna-rss.com/sparkle-files/noteson3.10.3.html</sparkle:releaseNotesLink>
 		</item>
 		<item>
 			<title>Vienna 3.8.8 :de36b0c7:</title>
