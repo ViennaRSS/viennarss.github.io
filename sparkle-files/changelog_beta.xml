@@ -7,6 +7,16 @@
 		<language>en-us</language>
 		<copyright>Copyright 2010-2025, Steve Palmer and contributors</copyright>
 		<item>
+			<title>Vienna 3.11.0 Beta 1 :5cdf39e9:</title>
+			<pubDate>Sat, 02 May 2026 19:06:42 +0000</pubDate>
+			<link>https://github.com/ViennaRSS/vienna-rss/releases/tag/v%2F3.11.0_beta1</link>
+			<sparkle:version>9045</sparkle:version>
+			<sparkle:shortVersionString>3.11.0 Beta 1 :5cdf39e9:</sparkle:shortVersionString>
+			<sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
+			<enclosure url="https://downloads.sourceforge.net/project/vienna-rss/v_3.11.0_beta1/Vienna3.11.0_beta1.dmg" sparkle:edSignature="aYEzY6PS30iXucGgz1YLEflrRWkvvSVqHgVGwVDkl0lkMafrZZRDKsFtNTHVrGLrHFDEO0r9h8kyZzkVUWmgCA==" length="5805095" type="application/octet-stream" />
+			<sparkle:releaseNotesLink>https://www.vienna-rss.com/sparkle-files/noteson3.11.0_beta1.html</sparkle:releaseNotesLink>
+		</item>
+		<item>
 			<title>Vienna 3.10.5 :4c2b65d9:</title>
 			<pubDate>Sat, 02 May 2026 18:19:12 +0000</pubDate>
 			<link>https://github.com/ViennaRSS/vienna-rss/releases/tag/v%2F3.10.5</link>
