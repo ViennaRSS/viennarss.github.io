@@ -7,24 +7,24 @@
 		<language>en-us</language>
 		<copyright>Copyright 2010-2025, Steve Palmer and contributors</copyright>
 		<item>
-			<title>Vienna 3.11.0 Beta 3 :70dd0c8f:</title>
-			<pubDate>Sat, 04 Jul 2026 11:58:54 +0000</pubDate>
-			<link>https://github.com/ViennaRSS/vienna-rss/releases/tag/v%2F3.11.0_beta3</link>
-			<sparkle:version>9247</sparkle:version>
-			<sparkle:shortVersionString>3.11.0 Beta 3 :70dd0c8f:</sparkle:shortVersionString>
+			<title>Vienna 3.11.0 Beta 4 :b2313156:</title>
+			<pubDate>Sun, 19 Jul 2026 13:33:20 +0000</pubDate>
+			<link>https://github.com/ViennaRSS/vienna-rss/releases/tag/v%2F3.11.0_beta4</link>
+			<sparkle:version>9258</sparkle:version>
+			<sparkle:shortVersionString>3.11.0 Beta 4 :b2313156:</sparkle:shortVersionString>
 			<sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
-			<enclosure url="https://downloads.sourceforge.net/project/vienna-rss/v_3.11.0_beta3/Vienna3.11.0_beta3.dmg" sparkle:edSignature="u3bXyN8Mo7Up23GUWuNsirUwQOgS2+Ty47PV2kp0ab0M2aS4800YSXcX4jIqs+TxpeaQwh1o7NZ6L5+uInbKBw==" length="5876417" type="application/octet-stream" />
-			<sparkle:releaseNotesLink>https://www.vienna-rss.com/sparkle-files/noteson3.11.0_beta3.html</sparkle:releaseNotesLink>
+			<enclosure url="https://downloads.sourceforge.net/project/vienna-rss/v_3.11.0_beta4/Vienna3.11.0_beta4.dmg" sparkle:edSignature="YTvJIkR0uunOeTka2eq7/5L8InK8DIIDR3E4FqJokSFSHOHUlABaGJlU0kv6wUwnrb+Le4tNZ1exLuQEDdZQAA==" length="5876637" type="application/octet-stream" />
+			<sparkle:releaseNotesLink>https://www.vienna-rss.com/sparkle-files/noteson3.11.0_beta4.html</sparkle:releaseNotesLink>
 		</item>
 		<item>
-			<title>Vienna 3.10.6 :284aab65:</title>
-			<pubDate>Sat, 30 May 2026 10:53:34 +0000</pubDate>
-			<link>https://github.com/ViennaRSS/vienna-rss/releases/tag/v%2F3.10.6</link>
-			<sparkle:version>9176</sparkle:version>
-			<sparkle:shortVersionString>3.10.6 :284aab65:</sparkle:shortVersionString>
+			<title>Vienna 3.10.8 :0294d207:</title>
+			<pubDate>Sun, 19 Jul 2026 12:43:54 +0000</pubDate>
+			<link>https://github.com/ViennaRSS/vienna-rss/releases/tag/v%2F3.10.8</link>
+			<sparkle:version>9196</sparkle:version>
+			<sparkle:shortVersionString>3.10.8 :0294d207:</sparkle:shortVersionString>
 			<sparkle:minimumSystemVersion>10.13.0</sparkle:minimumSystemVersion>
-			<enclosure url="https://downloads.sourceforge.net/project/vienna-rss/v_3.10.6/Vienna3.10.6.dmg" sparkle:edSignature="W0y1QJ41UPn16GJtwYR4EVjj5vUjfKhQyQ2yJZCniencynAUHCaOaEROnFWNYgBN16Aa8MVkynFDkRPoFqXEDw==" length="9192468" type="application/octet-stream" />
-			<sparkle:releaseNotesLink>https://www.vienna-rss.com/sparkle-files/noteson3.10.6.html</sparkle:releaseNotesLink>
+			<enclosure url="https://downloads.sourceforge.net/project/vienna-rss/v_3.10.8/Vienna3.10.8.dmg" sparkle:edSignature="p85eTDxoPdxBT5KZUrqjiJedeeH3luvdO00Ayt4ZLKWdt+7Q/B0f39X0tSOSGBAUo5OnUgghxMquBUzWS97UDA==" length="9348304" type="application/octet-stream" />
+			<sparkle:releaseNotesLink>https://www.vienna-rss.com/sparkle-files/noteson3.10.8.html</sparkle:releaseNotesLink>
 		</item>
 		<item>
 			<title>Vienna 3.8.8 :de36b0c7:</title>
